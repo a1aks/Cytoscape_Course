@@ -46,6 +46,21 @@ Cytoscape is an open source software platform for integrating, visualizing, and 
 
 Our end goal is to identify groups of cells that show interesting biological variation. However at the moment our data contains lots of potentially **unwanted variation** and **noise**. We have expression of many genes across many cells in multiple samples! This is an example of *high dimensional data*.
 
+# Load TCGA data
+
+## Create the network
+
+* Download BCLA-all.tsv.(https://github.com/a1aks/Cytoscape_Course/blob/main/Data_Files/BCLA-all.tsv)
+* Import the file to create a network using **File → Import → Network from File..** 
+* Alternatively, drag and drop the data file directly onto the Node Table.
+* This will bring up the Import Network From Table dialog.
+  * Click on Select None to disable all columns.
+  * Click only on the GeneName column and set this column as the Source Node column (green circle).
+  * Click OK. You’ll see a warning about no edges, but that’s OK. This will create a grid of 1500 unconnected nodes, where each node represents a gene.
+  
+  
+  *
+
 Potential sources of variation -
 
 * Differences in sequencing depth (This is also common to bulk seq)
