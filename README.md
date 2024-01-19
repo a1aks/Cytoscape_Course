@@ -3,9 +3,9 @@ This is a basic cytoscape course intended for beginners to get training with bio
 
 # Course Overview
 This course comprises of three sessions. 
-•	Session 1 - Introduction to Cytoscape and it's App - link
-•	Session 2 - Functional Enrichment Analysis - Link
-•	Session 3 - Enrichment using ClueGO and CluePedia. - Link
+1. Session 1 - Introduction to Cytoscape and it's App - link
+2. 	Session 2 - Functional Enrichment Analysis - Link
+3.	Session 3 - Enrichment using ClueGO and CluePedia. - Link
 
 # Akshay Bhat
 # Last modified: 8th Jan 2024
