@@ -10,8 +10,6 @@ This course comprises of three sessions.
 - [Session 3 - Enrichment using ClueGO and CluePedia.](session3.Rmd)
 - [Part 3 - HTML](session3.nb.html)
 
-# Akshay Bhat
-# Last modified: 8th Jan 2024
+## Akshay Bhat
+## Last modified: 2nd Feb 2024
 
-
-![image](https://github.com/a1aks/Cytoscape_Course/assets/814170/39487f13-030f-482c-bd79-63c2789c1003)
