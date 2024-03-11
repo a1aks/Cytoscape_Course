@@ -259,39 +259,63 @@ There are many tools available in **Cytoscape** to perform functional enrichment
 <div class="exercise">
 ## Exercise:
 * **Repeat for underexpressed network.**
+
+* Also color the nodes based on the functionally enriched values. For example **"ECM-Pathways"**, etc. 
 </div>
 
 
 # Topologically cluster the network. 
 
-Looking at the protein-protein interaction network (left), we see that there appear to be strong connections between groups of nodes (see discussion in 9 above). One approach to explore the functional interactions of the network is to use a topological clustering algorithm to partition the network based on the interactions. The clusterMaker2 app provides a set of topological (network) cluster algorithms. One commonly used one is MCL, which performs a Markov-based flow simulation to determine clusters.
+Looking at the protein-protein interaction network (below), we see that there appear to be strong connections between groups of nodes (see discussion in **"Adding styling to show mutations"** above). One approach to explore the functional interactions of the network is to use a topological clustering algorithm to partition the network based on the interactions. The clusterMaker2 app provides a set of topological (network) cluster algorithms. One commonly used one is MCL, which performs a Markov-based flow simulation to determine clusters.
+
+![](images/Topology_Cluster.png) 
+
+<br></br><br></br>
+
+* **Cluster using MCL**. Make sure the network is connected, then go to **Apps → clusterMaker Cluster Network → MCL Cluster**. 
+
+
+![](images/MCL_ClusterOptions.png) 
+<br></br><br></br>
+
+* This will bring up the MCL settings dialog. There are a number of options, but most of these don’t require any changes for our uses. We’re going to treat the network as unweighted so we don’t need to provide any Array Sources. We do want to check the **Create new clustered network** however so we can visualize the results. Then click **OK**.
+
+
+# Determine functional enrichment of the clusters.
+The results of the clustering should look something like the figure below, which is a close-up of the largest components. Of particular interest are the largest 4 components, which we’ll perform functional enrichment.
+  
+  
+![](images/Clustered_topology_network.png) 
+<br></br><br></br>
+
+* **Set network as a STRING network.** The first step is to inform the **stringApp** that this is a STRING-derived network. A menu item is available for that purpose: **Apps → STRING → Set as STRING network.**
+* **Retrieve functional enrichment of a component.** In the subnetwork, there are four connected components of any size. Select all of the nodes in the second largest one (the one with a number of overexpressed genes and the bulk of the mutations) and retrieve the functional enrichment through the **Apps → STRING Enrichment → Retrieve functional enrichment.**.
+
+
+![](images/String-retFuncEnrich.png) 
+<br></br><br></br>
+
+* This will bring up a new Table Panel tab for **STRING Enrichment.** There is a pull-down menu that switches the ontology or pathway displayed. Looking at the results we see that there is a significant overexpression of genes involved in the GO Biological Processes: extracellular matrix organization, collagen catabolic process, and other development processes; they are also associated with the KEGG pathways IL-17 Signaling Pathway and absorption, PI3K-AKT Signaling pathway and ECM-receptor interaction.
+
+![](images/TablePane-FuncEnrichment.png) 
+<br></br><br></br>
+
+<div class="exercise">
+## Exercise:
+* **Repeat for underexpressed network.**
+
+* Also color the nodes based on the functionally enriched values. For example **"ECM-Pathways"**, etc. 
+</div>
+
+
 
 <br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
-</br><br>
 </br>
 
 
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
 
+## Next Session: 
 
-
-## ####################### END OF COURSE #######################################
+<div class="information">
+* In the next session **Session 3**, we will learn more on how to perform pathway enrichment by comparing gene sets/groups (**a.k.a GSEA**) using the flavors from **ClueGO** and **CluePedia** (both Cytoscape plugins) and how to create visualizations using results for peer-review publications and grant applications. 
+</div>
