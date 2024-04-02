@@ -1,4 +1,9 @@
+# Analysis of next-generation sequening data in **Cytoscape**
+
 ![](sbc.png)
+
+- January 30th University of Sheffield
+- Bartolome House, Seminar Room EG03
 
 # Course Overview
 
