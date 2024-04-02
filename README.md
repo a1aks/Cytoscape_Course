@@ -92,8 +92,8 @@ to, e.g., the strength of a relationship) assigned to them.
 A network in which the edges between nodes do not have weights assigned
 to them.
 
-![](-imgs/media/image3.jpeg)*Image via
-http://blogs.sas.com/content/sascom/files/2011/10/weighted-network2.jpg*
+![](images/image3.jpeg)
+
 
 **Single-mode graph**
 
