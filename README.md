@@ -120,7 +120,7 @@ A measure of a network’s genes’ tendency to “group together” into
 pockets of dense connectivity.
 
 ![](images/image5.png)
-*In the first image, the blue node has a
+* *In the first image, the blue node has a
 clustering coefficient of one, because all possible connections among
 its neighboring nodes have been realized. In the second image, only one
 of the possible connections has been realized — so the blue node has a
