@@ -169,12 +169,12 @@ Here's what's included in the Sessions:
 1.	Setting up your data
 
 The most important thing to understand about Cytoscape (or, really, most network analysis tools) is the format in which you need to structure your data. At its most basic, Cytoscape wants a spreadsheet containing two columns. The objects in the first column should be connected in some way to the objects in the second column. This is called an **edge list**. In the example below, my edge list contains two kinds of things: geneA and geneB. The columns could be reordered so that the geneB column precedes the geneA column; it doesn't matter. All that matters here is that each row in my spreadsheet describes a connection between two entities.
-Other kinds of relationships you could describe in an edge list:
-* Gene A appears in a pathway with Gene B.
-* Gene A activates Pathway A.
-* Gene B supresses Pathway A.
-* ... and on and on.
-The important thing here is that your edge list should contain a list of relationships between, at most, two kinds of entities (e.g., geneA and geneB, features and pathways). The nature of those relationships can differ. For example, Gene A could have up-regulated Pathway A, while Gene B down-regulates Pathway A. But there should be two different kinds of things, at most, described in two columns.
+
+Other kinds of relationships you could describe in an edge list:<br></br>
+-	**Gene A** appears in a pathway with **Gene B**.<br></br>
+-	**Gene A** activates **Pathway A.**<br></br>
+-	**Gene B** suppresses **Pathway A.**<br></br>
+... and on and on. The important thing here is that your edge list should contain a list of relationships between, at most, two kinds of entities (e.g., geneA and geneB, features and pathways). The nature of those relationships can differ. For example, Gene A could have up-regulated Pathway A, while Gene B down-regulates Pathway A. But there should be two different kinds of things, at most, described in two columns.
 
 If you need specific guidance on setting up your edge list, see [Preparing Data 1: Making an Edge List](Resources/preparing-data-1-making-an-edge-list.md).
 
@@ -182,6 +182,8 @@ You can save your spreadsheet as an Excel document (with the file extension .xls
 
 If you don't have your own data, you can use the [sample edgelist](Data_Files/interactions_data_BladderCancer_ABhatetal.csv) included in this tutorial. (Use the "raw" download link or download the [CSV](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/interactions_data_BladderCancer_ABhatetal.csv) directly.) This data was taken from our previous published article on bladder cancer muscle invasiveness link: https://content.iospress.com/articles/bladder-cancer/blc150024.
  
+![](images/InteractionPic.png)
+
 
 2.	Get your edge list into Cytoscpae
 Open up Cytoscape. You should be greeted with a welcome pane that looks something like the one below. (If not, read on for instructions on how to accomplish the same thing without the welcome screen.)
