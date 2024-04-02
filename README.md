@@ -138,15 +138,14 @@ these measures are:
 *An important node is involved in large number of interactions.* The number of edges connected with a particular node.
 
 
-**Eigenvector centrality**
+**Eigenvector centrality** or in biological terms ** "Hub-proteins"**
 *An important node is connected to important neighbors.* This is a
 measure of influence of a given node in the whole network. The notion
 is how well-connected a given node is with other well connected nodes
-in the network. This is how, for example, Google determines page rank.
+in the network.
 
 **Betweenness centrality**
-*An important node lies on a high proportion of paths between other
-nodes in the network.*
+*An important node lies on a high proportion of paths between other nodes in the network.*
 
 **Closeness centrality**
 *An important node is typically “close” to, and can communicate quickly with, the other nodes in the network.* Length of the average shortest path between a given node and all other nodes in a graph.
@@ -159,9 +158,9 @@ nodes in the network.*
 
 ## Aims of the Course
 
-These tutorials provide a basic introduction to using Cytoscape to conduct network analysis of biological data. They're intended to be used with the multi-omics data I collected about **Urothelial Cancer of the Bladder (UCB)**. However, anyone should be able to follow along.
+These tutorials provide a basic introduction to using Cytoscape to conduct network analysis of biological data. They're intended to be used with multi-omics data I collected about **Urothelial Cancer of the Bladder (UCB)**. However, anyone should be able to follow along.
 
-Here's what's included:
+Here's what's included in the Sessions:
 •	Creating a basic Cytoscape network **(that's this tutorial)**
 •	Importing a node list and working with node attributes
 •	Selecting parts of your network 
