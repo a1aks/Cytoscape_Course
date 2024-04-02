@@ -152,10 +152,9 @@ nodes in the network.*
 *An important node is typically “close” to, and can communicate quickly with, the other nodes in the network.* Length of the average shortest path between a given node and all other nodes in a graph.
 
 
-# End of description 
-
-
+## More resources 
 * https://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/
+
 
 What is this?
 
