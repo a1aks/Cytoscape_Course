@@ -106,8 +106,6 @@ GraphML
 PSI-MI
 XGMML
 SIF
-![image](https://github.com/a1aks/Cytoscape_Course/assets/814170/39487f13-030f-482c-bd79-63c2789c1003)
-
 
 
 ## Schedule (Provisonal)
