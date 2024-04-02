@@ -69,18 +69,18 @@ Extracellular-Matrix regulation as a graph then every activation/inhibition of g
 **Undirected graph**
 
 When the relationship is always valid in both directions, then it is
-called undirected graph. For e.g. If gene-1 **TP53** is inhibiting gene-2 **RB1** within a cell-regulatory network, then
+called **undirected graph**. For e.g. If gene-1 **TP53** is inhibiting gene-2 **RB1** within a cell-regulatory network, then
 RB1 is also activating TP53.
 
 **Directed graph**
 
 When the relationship may not be valid in both directions (connecting
-nodes), then it is called a directed graph. If Bill is following Steve
-on Twitter and Steve is not following Bill, the relationship is
+nodes), then it is called a **directed graph**. If FGFR3 is associated to ERBB2
+within a chromosomal abberation event and ERBB2 is not having any association to FGFR3, then relationship is
 directed.
 
-![](-imgs/media/image2.gif)*Image via
-http://www.codediesel.com/wp-content/uploads/2012/02/d-graph1.gif*
+![](images/image2.gif)
+
 
 **Weighted network**
 
