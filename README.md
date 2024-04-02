@@ -201,6 +201,7 @@ Start a new session **From Network File.** Somewhat confusingly, Cytoscape consi
 # If you don't see that welcome screen...
 no big deal. Someone might have disabled it, but you can accomplish the same thing by clicking on the **Import Network from File** button (circled below) and selecting your edge list.
 </div>
+
 ![](images/Importpic.png)
 
 
