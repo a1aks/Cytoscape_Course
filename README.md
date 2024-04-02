@@ -69,8 +69,8 @@ Extracellular-Matrix regulation as a graph then every activation/inhibition of g
 **Undirected graph**
 
 When the relationship is always valid in both directions, then it is
-called undirected graph. If Dave is friends with Raj on Facebook, then
-Raj is also friends with Dave.
+called undirected graph. For e.g. If gene-1 **TP53** is inhibiting gene-2 **RB1** within a cell-regulatory network, then
+RB1 is also activating TP53.
 
 **Directed graph**
 
