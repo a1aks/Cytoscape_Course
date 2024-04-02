@@ -62,7 +62,8 @@ we consider DNA-Damage Repair (DDR) pathways as a graph, then every gene/pathway
 These are the relationships between nodes. For example, if we consider
 Extracellular-Matrix regulation as a graph then every activation/inhibition of gene1-gene2 pair is an edge.
 
-![](images/image1.png)*Image via
+![](images/image1.png) 
+* Image via
 http://semanticommunity.info/AOL\_Government/Social\_Media\_-\_Six\_Degrees\_of\_Separation\_and\_Now\_Even\_Less*
 
 
