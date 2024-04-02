@@ -185,68 +185,143 @@ If you don't have your own data, you can use the [sample edgelist](Data_Files/in
 ![](images/InteractionPic.png)
 
 
-2.	Get your edge list into Cytoscpae
+# Get your edge list into Cytoscpae
 Open up Cytoscape. You should be greeted with a welcome pane that looks something like the one below. (If not, read on for instructions on how to accomplish the same thing without the welcome screen.)
-Start a new session From Network File. Somewhat confusingly, Cytoscape considers your edge list a "network file." I guess it is a network, so maybe it's not that confusing. Anyway, press the From Network File button and select the edge list you've prepared. You can also directly drag your .CSV file into Cytoscape network. 
- 
+
+<br></br>
 
 
+Start a new session **From Network File.** Somewhat confusingly, Cytoscape considers your edge list a "network file." I guess it is a network, so maybe it's not that confusing. Anyway, press the **From Network File** button and select the edge list you've prepared. You can also directly drag your .CSV file into Cytoscape network.
+<br></br>
 
-3.	If you don't see that welcome screen...
-no big deal. Someone might have disabled it, but you can accomplish the same thing by clicking on the Import Network from File button (circled below) and selecting your edge list.
+![](images/Session_Cyto_Interaction.png)
+<br></br>
+<br></br>
+<div class="information">
+# If you don't see that welcome screen...
+no big deal. Someone might have disabled it, but you can accomplish the same thing by clicking on the **Import Network from File** button (circled below) and selecting your edge list.
+</div>
+![](images/Importpic.png)
 
- 
 
-4. Help Cytoscape understand your data
+<br></br>
+<br></br>
+
+# Help Cytoscape understand your data
 The screen that pops up after you imported your edge list might be the most initially confusing part of Cytoscape, although it's no problem once you figure out what it wants. You need to tell Cytoscape which parts of your data constitute the entities in your network diagram.
-Cytoscape hasn't understood right away that you want a network composed of geneA and geneB nodes. You can tell that's the case because the icon that appears next to the words gene symbol A and Interaction Type looks sort of like a document, which means that Cytoscape thinks that you've fed it a list of edge attributes, not edges themselves. Edge attributes can come in handy, as I'll explain below, but that's not what you've provided Cytoscape at the moment.
-We need to tell Cytoscape that the edge list we've provided contains Sources in one column and Targets in another. It doesn't matter, in this case, which column you designate a source and which column you designate a target; it's just that one column has to be one and the other has to be the other. (If our network was directed, this would matter, but that's more information than you need right now.)
-OK, let's tell Cytoscape how to interpret our data. Click on the arrow next to the word Gene Symbol A and from the menu that appears, select the green circle. Cryptically, this icon means Source. For the Gene Symbol B column, do the same thing, but this time select the red bullseye, which means Target.
-When you've changed both columns, click OK.
- 
+<br></br>
+<br></br>
+Cytoscape hasn't understood right away that you want a network composed of **geneA** and **geneB** nodes. You can tell that's the case because the icon that appears next to the words **gene symbol A** and **Interaction Type** looks sort of like a document, which means that Cytoscape thinks that you've fed it a list of **edge attributes**, not edges themselves. Edge attributes can come in handy, as I'll explain below, but that's not what you've provided Cytoscape at the moment.
+<br></br>
+<br></br>
+We need to tell Cytoscape that the edge list we've provided contains **Sources** in one column and **Targets** in another. It doesn't matter, in this case, which column you designate a **source** and which column you designate a **target**; it's just that one column has to be one and the other has to be the other. (If our network was **directed**, this would matter, but that's more information than you need right now.)
+<br></br>
+<br></br>
+OK, let's tell Cytoscape how to interpret our data. Click on the arrow next to the word **Gene Symbol A** and from the menu that appears, select the green circle. Cryptically, this icon means **Source.** For the **Gene Symbol B** column, do the same thing, but this time select the red bullseye, which means **Target.**
+<br></br>
+<br></br>
+When you've changed both columns, click **OK.**
 
-5. You have a (very confusing) network!
-If the previous steps worked properly, you should have a network of connected nodes. If you have more than 100 or so, though, your network will look a lot like a hairball. We'll talk about ways to make your network graph more legible in subsequent steps
-For now, note that you can zoom in on parts of your network using the magnifying glasses or your mouse. On a Mac, you can move your canvas around if you hold down the command key and drag. You can also search for individual nodes by using the search box at the upper right of the window. (Note that Cytoscape doesn't zoom to the node you searched for right away; it just highlights it in yellow. You may have to zoom out to see the selected node.).
- 
-6. Switch up your style
-One of the easiest ways to change the look of your network diagram is to switch the style using one of Cytoscape's built-in options. To do that, click the Style tab on the control panel and then choose one of the options with which you're presented. I don't know if I love any of them, but some are more legible than others.
+![](images/NetworkImport.png)
+<br></br>
+<br></br>
 
 
+# You have a (very confusing) network!
+If the previous steps worked properly, you should have a network of connected nodes. If you have more than 100 or so, though, your network will look a lot like a hairball. We'll talk about ways to make your network graph more legible in subsequent steps.
+<br></br>
+For now, note that you can zoom in on parts of your network using the magnifying glasses or your mouse. On a Mac, you can move your canvas around if you hold down the **command** key and drag. You can also search for individual nodes by using the search box at the upper right of the window. **(Note that Cytoscape doesn't zoom to the node you searched for right away; it just highlights it in yellow. You may have to zoom out to see the selected node.).**
+![](images/Confused_Network.png)
+<br></br>
+<br></br>
 
-7. Change your layout
-Sometimes networks are more legible if you change the arrangement of the nodes. You can do this by switching the layout. Click on Layout from Cytoscape's menu bar and select one of the layout options. Experiment with various layouts and notice how drastically your network diagram changes.
+# Switch up your style
+One of the easiest ways to change the look of your network diagram is to switch the style using one of Cytoscape's built-in options. To do that, click the **Style** tab on the control panel and then choose one of the options with which you're presented. I don't know if I love any of them, but some are more legible than others.<br></br>
+<br></br>
+![](images/Style-tab.png)
+<br></br>
+<br></br>
+
+# Change your layout
+Sometimes networks are more legible if you change the arrangement of the nodes. You can do this by switching the layout. Click on **Layout** from Cytoscape's menu bar and select one of the layout options. Experiment with various layouts and notice how drastically your network diagram changes.
+<br></br>
+<br></br>
 Confoundingly, each of these wildly different network layouts displays the same basic information. How can this be? Simple: In most network graphs, the proximity of two nodes doesn't indicate anything except legibility. This can be really confusing, because cognitively, we expect proximity to convey meaningful information. It just doesn't, though, in most network diagrams. The presence or absence of an edge means something, and color and size often do, too. But proximity generally doesn't.
- 
-8. Customize your style
-You can make changes to many visual attributes of your network graph from Cytoscape's control panel. Once you've selected the Style tab, look at the bottom of the control panel. You'll see that three additional buttons allow you to customize the look of the nodes, the edges, and the network as a whole.
-Looking at the Node style pane, you'll see that we can alter many aspects of our nodes, including their border, the color, height, labels, etc. But what do the three columns, labeled Def., Map., and Byp. mean?
-Def. stands for default: the default visual attribute of a node. If you click on the default fill color for your network diagram, for example (in the image below, it's a blue square), you'll see that you can swap out the colors of your network's nodes.
-Byp. stands for bypass, and it allows you to apply a style to a group of nodes that you select.
-The Map. (mapping) column allows you to control the visual features of your nodes according to their properties. For example, let's say you'd like all of the films from a particular studio to appear in pink. You can do that by mapping that attribute to a particular color. Or, let's say you'd like those nodes with more connections to appear larger. You can do that with the mapping control.
-The problem is, we don't have any of that information currently included in our network. So in the next tutorial, we'll look at how to load up attributes for our nodes.
-(Or you can skip straight to publishing your network diagram!)
+<br></br>
+<br></br>
+![](images/layout-change.png)
 
- 
+<br></br>
+<br></br>
 
-9. Saving your network
+# Customize your style
+
+You can make changes to many visual attributes of your network graph from Cytoscape's control panel. Once you've selected the **Style** tab, look at the bottom of the control panel. You'll see that three additional buttons allow you to customize the look of the **nodes**, the **edges**, and the **network** as a whole.
+<br></br>
+<br></br>
+Looking at the **Node** style pane, you'll see that we can alter many aspects of our nodes, including their border, the color, height, labels, etc. But what do the three columns, labeled **Def., Map.,** and **Byp.** mean?
+<br></br>
+<br></br>
+**Def.** stands for **default**: the default visual attribute of a node. If you click on the default fill color for your network diagram, for example (in the image below, it's a blue square), you'll see that you can swap out the colors of your network's nodes.
+<br></br>
+<br></br>
+**Byp.** stands for **bypass**, and it allows you to apply a style to a group of nodes that you select.
+<br></br>
+<br></br>
+The **Map.** (mapping) column allows you to control the visual features of your nodes according to their properties. For example, let's say you'd like all of the films from a particular studio to appear in pink. You can do that by mapping that attribute to a particular color. Or, let's say you'd like those nodes with more connections to appear larger. You can do that with the mapping control.
+<br></br>
+<br></br>
+The problem is, we don't have any of that information currently included in our network. So in the next tutorial, we'll look at how to load up **attributes** for our nodes.
+<br></br>
+<br></br>
+([Or you can skip straight to publishing your network diagram!](https://github.com/miriamposner/cytoscape_tutorials/blob/master/publishing-your-network-diagram.md)) 
+
+
+<br></br>
+<br></br>
+![](images/Customize_Styles.png)
+
+
+
+
+<br></br>
+<br></br>
+
+
+# Saving your network
 Cytoscape provides a number of ways to save results and visualizations:
-As a session: File → Save Session, File → Save Session As...
- 
+As a session: **File → Save Session, File → Save Session As...**
+<br></br>
+<br></br>
+![](images/Save_Session.png)
+<br></br>
+<br></br>
 
-As an image: File → Export → Network to Image...
- 
- 
-To the web: File → Export → Network to Web Page...
-To a public repository: File → Export → Network to NDEx
-As a graph format file: File → Export → Network to File.
-Formats:
-CX JSON / CX2 JSON
-Cytoscape.js JSON
-GraphML
-PSI-MI
-XGMML
-SIF
+As an image: **File → Export → Network to Image...**
+
+<br></br>
+<br></br>
+![](images/Export_Image.png)
+<br></br>
+<br></br>
+![](images/Sif_Format.png)
+
+<br></br>
+<br></br>
+To the web: **File → Export → Network to Web Page...**<br></br>
+To a public repository: **File → Export → Network to NDEx**<br></br>
+As a graph format file: **File → Export → Network to File.**<br></br>
+
+**Formats:**<br></br>
+- CX JSON / CX2 JSON<br></br>
+- Cytoscape.js JSON<br></br>
+- GraphML<br></br>
+- PSI-MI<br></br>
+- XGMML<br></br>
+- SIF<br></br>
+
+<br></br><br></br>
+
 
 
 ## Schedule (Provisonal)
