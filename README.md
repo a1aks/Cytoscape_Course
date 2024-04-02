@@ -176,9 +176,11 @@ Other kinds of relationships you could describe in an edge list:
 * ... and on and on.
 The important thing here is that your edge list should contain a list of relationships between, at most, two kinds of entities (e.g., geneA and geneB, features and pathways). The nature of those relationships can differ. For example, Gene A could have up-regulated Pathway A, while Gene B down-regulates Pathway A. But there should be two different kinds of things, at most, described in two columns.
 
-If you need specific guidance on setting up your edge list, see Preparing Data 1: Making an Edge List. This is just an example using actors and films as data. 
+If you need specific guidance on setting up your edge list, see [Preparing Data 1: Making an Edge List](preparing-data-1-making-an-edge-list.md).
+
 You can save your spreadsheet as an Excel document (with the file extension .xls) or its generic equivalent, a CSV (with the file extension .csv). Cytoscape can interpret both of these formats.
-If you don't have your own data, you can use the sample edgelist included in this tutorial below. (Use the "raw" download link or download the CSV directly.). This data was taken from our previous published article on bladder cancer muscle invasiveness link: https://content.iospress.com/articles/bladder-cancer/blc150024. 
+
+If you don't have your own data, you can use the [sample edgelist](data/edgelist.csv) included in this tutorial. (Use the "raw" download link or download the [CSV](https://raw.githubusercontent.com/miriamposner/cytoscape_tutorials/master/data/edgelist.csv) directly.) This data was taken from our previous published article on bladder cancer muscle invasiveness link: https://content.iospress.com/articles/bladder-cancer/blc150024.
  
 
 2.	Get your edge list into Cytoscpae
