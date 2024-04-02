@@ -49,18 +49,18 @@ least one relation among features.
 
 **Graph**
 
-A common way to visually represent social networks, consisting of two
-dimensions: actors and relations (also called nodes and edges).
+A common way to visually represent biological networks, consisting of two
+dimensions: bio-entity and relations (also called nodes and edges).
 
 **Node**
 
 Nodes are the entities in graph (also called vectors). For example, if
-we consider Facebook friends as a graph, then every friend is a node.
+we consider DNA-Damage Repair (DDR) pathways as a graph, then every gene/pathway-term is a node.
 
 **Edge**
 
 These are the relationships between nodes. For example, if we consider
-Facebook friends as a graph then every friendship is an edge.
+Extracellular-Matrix regulation as a graph then every activation/inhibition of gene1-gene2 pair is an edge.
 
 ![](-imgs/media/image1.png)*Image via
 http://semanticommunity.info/AOL\_Government/Social\_Media\_-\_Six\_Degrees\_of\_Separation\_and\_Now\_Even\_Less*
