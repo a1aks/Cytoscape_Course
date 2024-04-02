@@ -113,11 +113,11 @@ SIF
 ### Monday 30th January, 2023
 
 
-- 09:30 - 11:00 Introduction and quality assessment
-- 11:15 - 12:30 Normalisation and sources of variation
+- 09:30 - 11:00 Introduction to Cytoscape and it's App
+- 11:15 - 12:30 Functional Enrichment Analysis
 - 12:30 - 13:15 LUNCH
-- 13:15 - 15:00 Clustering (UMAP, tSNE etc)
-- 15:00 - 16:30 Identifying marker genes and differential expression
+- 13:15 - 15:00 Enrichment using ClueGO and CluePedia
+- 15:00 - 16:30 Identifying signiifcant pathway modules and differential expression genes
 
 ## Materials
 
