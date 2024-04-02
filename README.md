@@ -168,12 +168,13 @@ Here's what's included in the Sessions:
 
 1.	Setting up your data
 
-The most important thing to understand about Cytoscape (or, really, most network analysis tools) is the format in which you need to structure your data. At its most basic, Cytoscape wants a spreadsheet containing two columns. The objects in the first column should be connected in some way to the objects in the second column. This is called an edge list. In the example below, my edge list contains two kinds of things: geneA and geneB. The columns could be reordered so that the geneB column precedes the geneA column; it doesn't matter. All that matters here is that each row in my spreadsheet describes a connection between two entities.
+The most important thing to understand about Cytoscape (or, really, most network analysis tools) is the format in which you need to structure your data. At its most basic, Cytoscape wants a spreadsheet containing two columns. The objects in the first column should be connected in some way to the objects in the second column. This is called an **edge list**. In the example below, my edge list contains two kinds of things: geneA and geneB. The columns could be reordered so that the geneB column precedes the geneA column; it doesn't matter. All that matters here is that each row in my spreadsheet describes a connection between two entities.
 Other kinds of relationships you could describe in an edge list:
-•	Gene A appears in a pathway with Gene B.
-•	Gene A activates Pathway A.
-•	Gene B supresses Pathway A.
-... and on and on. The important thing here is that your edge list should contain a list of relationships between, at most, two kinds of entities (e.g., geneA and geneB, features and pathways). The nature of those relationships can differ. For example, Gene A could have up-regulated Pathway A, while Gene B down-regulates Pathway A. But there should be two different kinds of things, at most, described in two columns.
+* Gene A appears in a pathway with Gene B.
+* Gene A activates Pathway A.
+* Gene B supresses Pathway A.
+* ... and on and on.
+The important thing here is that your edge list should contain a list of relationships between, at most, two kinds of entities (e.g., geneA and geneB, features and pathways). The nature of those relationships can differ. For example, Gene A could have up-regulated Pathway A, while Gene B down-regulates Pathway A. But there should be two different kinds of things, at most, described in two columns.
 
 If you need specific guidance on setting up your edge list, see Preparing Data 1: Making an Edge List. This is just an example using actors and films as data. 
 You can save your spreadsheet as an Excel document (with the file extension .xls) or its generic equivalent, a CSV (with the file extension .csv). Cytoscape can interpret both of these formats.
