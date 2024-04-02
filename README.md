@@ -180,7 +180,7 @@ If you need specific guidance on setting up your edge list, see [Preparing Data 
 
 You can save your spreadsheet as an Excel document (with the file extension .xls) or its generic equivalent, a CSV (with the file extension .csv). Cytoscape can interpret both of these formats.
 
-If you don't have your own data, you can use the [sample edgelist](data/edgelist.csv) included in this tutorial. (Use the "raw" download link or download the [CSV](https://raw.githubusercontent.com/miriamposner/cytoscape_tutorials/master/data/edgelist.csv) directly.) This data was taken from our previous published article on bladder cancer muscle invasiveness link: https://content.iospress.com/articles/bladder-cancer/blc150024.
+If you don't have your own data, you can use the [sample edgelist](Data_Files/interactions_data_BladderCancer_ABhatetal.csv) included in this tutorial. (Use the "raw" download link or download the [CSV](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/interactions_data_BladderCancer_ABhatetal.csv) directly.) This data was taken from our previous published article on bladder cancer muscle invasiveness link: https://content.iospress.com/articles/bladder-cancer/blc150024.
  
 
 2.	Get your edge list into Cytoscpae
