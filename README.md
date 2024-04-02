@@ -1,4 +1,4 @@
-# Analysis of next-generation sequening data in **Cytoscape**
+# Analysis of next-generation sequencing data in **Cytoscape**
 
 ![](sbc.png)
 
