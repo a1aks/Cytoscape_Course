@@ -3,14 +3,6 @@
 # Cytoscape_Course
 This is a basic cytoscape course intended for beginners to get training with biological network analysis. 
 
-# Course Overview
-This course comprises of three sessions. 
-- [Session 1 - Introduction to Cytoscape and it's App](session1.Rmd)
-- [Part 1 - HTML](session1.nb.html)
-- [Session 2 - Functional Enrichment Analysis](session2.Rmd)
-- [Part 2 - HTML](session2.nb.html)
-- [Session 3 - Enrichment using ClueGO and CluePedia.](session3.Rmd)
-- [Part 3 - HTML](session3.nb.html)
 
 ## Akshay Bhat
 ## Last modified: 2nd Feb 2024
@@ -28,4 +20,25 @@ The workshop is designed to give you an introduction on using **Cytoscape** – 
 *	Some analyses take too long, and whilst they are running everything else on our machine will be slow
 *	Eventually you will want to use “High-performance computing” (HPC) - but this requires some background knowledge before you can use it
 
+
+## Schedule (Provisonal)
+
+### Monday 30th January, 2023
+
+
+- 09:30 - 11:00 Introduction and quality assessment
+- 11:15 - 12:30 Normalisation and sources of variation
+- 12:30 - 13:15 LUNCH
+- 13:15 - 15:00 Clustering (UMAP, tSNE etc)
+- 15:00 - 16:30 Identifying marker genes and differential expression
+
+## Materials
+
+This course comprises of three sessions. 
+- [Session 1 - Introduction to Cytoscape and it's App](session1.Rmd)
+- [Part 1 - HTML](session1.nb.html)
+- [Session 2 - Functional Enrichment Analysis](session2.Rmd)
+- [Part 2 - HTML](session2.nb.html)
+- [Session 3 - Enrichment using ClueGO and CluePedia.](session3.Rmd)
+- [Part 3 - HTML](session3.nb.html)
 
