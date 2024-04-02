@@ -95,32 +95,11 @@ to them.
 ![](images/image3.jpeg)
 
 
-**Single-mode graph**
-
-A type of graph in which all nodes belong to the same category. For
-example, in a graph of Facebook friends, each node is a person.
-
-**Multimode graph**
-
-A type of graph in which all nodes are not of same type. For example, a
-graph that includes both “buyers” and “sellers” is a multimode (or
-two-mode, or bimodal) graph.
-
-**Ego network**
-
-When you perform ego network analysis, you select a focal node (an
-“ego”) and determine its connections to other nodes (which are called
-“alters”). Each ego is treated as its own case.
-
-![](-imgs/media/image4.png)*Image via
-http://www.analytictech.com/e-net/pdwhandout.pdf*
-
-**Measures of Graphs or Nodes**
+## **Measures of Graphs or Nodes**
 
 **Size**
 
-A measure of the number of actors (nodes) in a complete or egocentric
-network.
+A measure of the number of genes (nodes) in a complete or sub-graphed network.
 
 **Density**
 
@@ -133,20 +112,21 @@ The proportion of mutual ties in a network.
 
 **Distance**
 
-The number of “steps” between any two actors in a network.
+The number of “steps” between any two genes (nodes) in a biological network.
 
 **Clustering coefficient**
 
-A measure of a network’s actors’ tendency to “group together” into
+A measure of a network’s genes’ tendency to “group together” into
 pockets of dense connectivity.
 
-![](-imgs/media/image5.png)*In the first image, the blue node has a
+![](images/image5.png)
+*In the first image, the blue node has a
 clustering coefficient of one, because all possible connections among
 its neighboring nodes have been realized. In the second image, only one
 of the possible connections has been realized — so the blue node has a
 clustering coefficient of 1/3. In the third image, none of the
 neighboring nodes are connected, so the blue node has a clustering
-coefficient of 0. Image via Wikipedia.*
+coefficient of 0.*
 
 **Centrality**
 
@@ -154,35 +134,23 @@ There are multiple ways to determine a node’s importance, or centrality.
 The measure you use depends on how you define centrality. Several of
 these measures are:
 
-> **Degree centrality**
->
-> *An important node is involved in large number of interactions.* The
+**Degree centrality**
+*An important node is involved in large number of interactions.* The
 > number of edges connected with a particular node.
->
-> **Eigenvector centrality**
->
-> *An important node is connected to important neighbors.* This is a
-> measure of influence of a given node in the whole network. The notion
-> is how well-connected a given node is with other well connected nodes
-> in the network. This is how, for example, Google determines page rank.
->
-> **Betweenness centrality**
->
-> *An important node lies on a high proportion of paths between other
-> nodes in the network.* Model based on communication flow. A person who
-> lies on communication paths can control communication flow, and is
-> thus important.
->
-> **Closeness centrality**
->
-> *An important node is typically “close” to, and can communicate
-> quickly with, the other* *nodes in the network.* Length of the average
-> shortest path between a given node and all other nodes in a graph.
 
 
+**Eigenvector centrality**
+*An important node is connected to important neighbors.* This is a
+measure of influence of a given node in the whole network. The notion
+is how well-connected a given node is with other well connected nodes
+in the network. This is how, for example, Google determines page rank.
 
+**Betweenness centrality**
+*An important node lies on a high proportion of paths between other
+nodes in the network.*
 
-
+**Closeness centrality**
+*An important node is typically “close” to, and can communicate quickly with, the other nodes in the network.* Length of the average shortest path between a given node and all other nodes in a graph.
 
 
 # End of description 
