@@ -156,12 +156,13 @@ nodes in the network.*
 * https://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/
 
 
-What is this?
 
-These tutorials provide a basic introduction to using Cytoscape to conduct network analysis of biological data. They're intended to be used with the data my students and I collected about early African-American silent film. However, anyone should be able to follow along.
+## Aims of the Course
+
+These tutorials provide a basic introduction to using Cytoscape to conduct network analysis of biological data. They're intended to be used with the multi-omics data I collected about **Urothelial Cancer of the Bladder (UCB)**. However, anyone should be able to follow along.
 
 Here's what's included:
-•	Creating a basic Cytoscape network (that's this tutorial)
+•	Creating a basic Cytoscape network **(that's this tutorial)**
 •	Importing a node list and working with node attributes
 •	Selecting parts of your network 
 •	Publishing your network diagram
