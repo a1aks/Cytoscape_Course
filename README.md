@@ -135,8 +135,7 @@ The measure you use depends on how you define centrality. Several of
 these measures are:
 
 **Degree centrality**
-*An important node is involved in large number of interactions.* The
-> number of edges connected with a particular node.
+*An important node is involved in large number of interactions.* The number of edges connected with a particular node.
 
 
 **Eigenvector centrality**
