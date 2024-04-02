@@ -61,12 +61,11 @@ Katharina Zweig, “An Introductory Course on Network Analysis”
 
 ## **Basic Terms**
 
-**Social network**
+**Biological network**
 
 A finite set (or sets) of features (a.k.a. biological entities, for e.g. genes, mRNAs, miRNAs, proteins, peptides, metabolites, etc.) and the relations (for e.g. co-expression) defined on them. It
 consists of three elements: (1) a set of biological entities; (2) each bio-entity has a
-set of individual attributes; and (3) a set of ties that defines at
-least one relation among features.
+set of individual attributes; and (3) a set of ties that defines at least one relation among features.
 
 **Graph**
 
