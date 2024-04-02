@@ -1,6 +1,6 @@
 # Analysis of next-generation sequencing data using **Cytoscape**
 
-![](sbc.png)
+![](images/Cytoscape-Logo.png)
 
 - June 12th 2024 - University of Sheffield
 - Bartolome House, Seminar Room EG03
