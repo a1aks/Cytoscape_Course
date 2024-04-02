@@ -1,6 +1,4 @@
 ![](sbc.png)
-## Akshay Bhat
-## Last modified: 2nd Feb 2024
 
 # Course Overview
 
@@ -38,3 +36,5 @@ This course comprises of three sessions.
 - [Session 3 - Enrichment using ClueGO and CluePedia.](session3.Rmd)
 - [Part 3 - HTML](session3.nb.html)
 
+## Course coordinator - Dr. Akshay Bhat
+## Last modified: 2nd April 2024
