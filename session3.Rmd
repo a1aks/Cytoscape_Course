@@ -306,6 +306,12 @@ distribution on the selected terms (see Figure below).
 
 ![](images/ClueGO-Integrated.png)
 
+## ClueGO result visualizations
+
+![](images/ClueGO-Result_Vis.png)
+
+
+
 
 ## Include your organism of interest in ClueGO
 
