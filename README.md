@@ -329,7 +329,5 @@ As a graph format file: **File → Export → Network to File.**<br></br>
 - XGMML<br></br>
 - SIF<br></br>
 
-<br></br>
-
 ## Course coordinator - Dr. Akshay Bhat
 ## Last modified: 2nd April 2024
