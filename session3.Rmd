@@ -339,21 +339,23 @@ the UniqueIDs from organism.gene2accession.txt.
 
 <div class="exercise">
 
-# Walk-through example
+# Walk-through exercise
+
+For the exercise, we are going to use mRNA bladder cancer data generated from RNA-Seq platform. The data can be retrived from Robertson et al. Cell 2017 or downloaded from ([Here..](https://github.com/a1aks/Cytoscape_Course/tree/main/Data_Files)) 
 
 ## ClueGO settings
 
 * set the type of analysis: Compare Cluster
 * select the organism: Homo Sapiens and the the type of ids used: AccessionID
 * load sample gene lists:
-  * choose Cluster #1: select GSE6887 NKcell Healthy top200UpRegulated.txt
-  * choose Cluster #2: GSE6887 NKcell Healthy top200DownRegulated.txt
+  * **choose Cluster #1**: select Top_Down_genes_BLCA_Session3.txt - ([Here..](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/Top_Down_genes_BLCA_Session3.txt))
+  * **choose Cluster #2**: Top_Up_genes_BLCA_Session3.txt - ([Here..](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/Top_Up_genes_BLCA_Session3.txt))
 * select the Ontologies:
-  * GO BiologicalProcess 10.10.2008 (All Evidence codes),
-  * KEGG Pathways 14.10.2008 and
-  * BioCarta pathway reactome 20.10.2008
-* select the statistical test: Enrichment/Deplection (Two sided hypergeometric test), FisherExactTest
-* select the correction method: Bonferroni
+  * GO BiologicalProcess,
+  * KEGG Pathways  and
+  * BioCarta pathway reactome 
+* select the statistical test: **Enrichment/Deplection (Two sided hypergeometric test)**, **FisherExactTest**
+* select the correction method: **Bonferroni**
 * click Show Advanced Settings
 * set GO Tree Level: Min 4 and Max 5
 * set the selection criteria for the terms that have associated genes from cluster 1: min 2 genes/term
@@ -375,7 +377,7 @@ and minimum 4% from all the Genes associated with the term
 
 ## Customize the network using Cytoscape features
 
-* select WizMapper (Cytoscape Control Panel)
+* select **Style** (Cytoscape Control Panel)
 * select Node Font Size
 * set the value of FALSE (size for the name of the terms) to 0.001 and press Enter
 * set the value of TRUE (size for the name of groups) to 26 and press Enter
@@ -390,7 +392,136 @@ and minimum 4% from all the Genes associated with the term
 
 ![](images/ClueGO-CustomizedSetting.png)
 
+* Using the filters and style options above, develop a network by using cluster compare for the two bladder cancer conditions - Normal VS Tumor. 
+
+* Save your network in two formats: (a) as a Cytoscape Session (**.sys ** format), and  (b) as a **.png or .pdf** figure.
+  * The cytoscape session (.sys) will be used in the next section for CluePedia analysis. 
+
+More details on using specific options can be achieved by folowing the **ClueGO** documentation: http://www.ici.upmc.fr/cluego/ClueGODocumentation2019.pdf
+
 </div>
 
 <br></br>
 
+# Section B - Analyse with CluePedia. 
+
+## Background: 
+**CluePedia** provides insights into pathways by integrating experimental and in silico information.
+
+* CluePedia extends ClueGO ([1]) functionality down to genes and miRNAs. If ClueGO reveals interrelations of terms and functional groups in biological networks, CluePedia gives the posibility to enrich those networks with known and experimental data.
+
+* CluePedia calculates statistical dependencies (correlation) for markers of interest from experimental data. Four tests investigating linear and nonlinear dependencies between variables are implemented: Pearson correlation, Spearman’s rank, Distance correlation ([2]) and Minimal Information Criteria (MIC) ([3]). The resulting file is added to CluePedia as an additional
+resource for further analysis.
+
+* Experimental data can be normalized and visualized between adjustable thresholds on network’s nodes as a label. Relevant signals with a certain expression level, standard deviation
+and without missing values can be selected. Another feature allows the extraction of expression
+corresponding to selected markers, e.g. genes associated to a pathway, from a dataset into a new
+file.
+
+* One major advantage is the possibility to investigate in detail a pathway by combining known [4, 5] and new, experimental derived information, about genes/proteins involved. More, miRNAs [6, 7] that could influence the expression of the genes can be as well visualized together with the expression data. The location of the genes/proteins [8, 9] within cellular compartments can be automatically displayed, by the implementation of Cerebral [10] layout within CluePedia.
+
+* CluePedia provides an ID index file (updatable, extendable) that stores entrez gene ids and symbols and allows fast analysis.
+
+* Both plugins, CluePedia and ClueGO, take advantage of Cytoscape’s versatile visualization framework
+
+
+## Software Documentation 
+For detailed information on how certain functions work in CluePedia, please refer to the link here: http://www.ici.upmc.fr/cluepedia/CluePedia_Documentation.pdf
+
+
+## Walkthorugh Example: 
+
+* Open the previously saved session3.sys **(Part A - ClueGO Network)** file in Cytoscape.
+
+## Create a ClueGO+CluePedia network of terms/pathways and genes.
+* Download CluePedia and ClueGO plugins in the Cytoscape plugin folder. Optional Download Cerebral plugin.
+* Start Cytoscape. Open ClueGO+CluePedia (Plugins menu).
+* Keep standard settings: Analysis Mode (Function), Cluster Analysis Type (Single), Organism (Homo Sapiens), Automatic recognition of ids.
+* Open example file CluePediaExampleFile Th1 related genes.txt.
+Genes: PDCD1LG1, IRF1, GNLY, PDCD1LG2, PDCD1, TBX21, IFNG, TNFRSF6B,
+ICOS, TNF, CXCL9, CXCL10, IL8, STAT1, MADCAM1, ICAM1, VCAM1, CX3CL1
+* Select Ontology: Reactome (version 10.07.2012)
+* Select Show Advanced Settings.
+* Set Gene percentage to 3%.
+* Keep all the other advanced settings.
+* Start the analysis
+**ClueGO network of functions**
+* Select CluePedia panel
+* Select Show only selected genes
+**ClueGO+CluePedia network of functions + associated genes.**
+
+![](images/ClueGO-Pedia_Network.png)
+
+
+![](images/ClueGO_Pedia_Network_2.png)
+
+## Visualize known interactions between mapped genes.
+
+Explore a term/pathway of interest into a nested network.
+
+See all genes associated to this term and their known interactions.
+
+* Select ACTIONS interaction file (CluePedia STRING-ACTIONS v9 9606 09.03.2012).
+* Select Action types: activation, binding, expression, ptmode (all scores)
+* Update the network
+  * ClueGO+CluePedia network of terms and genes. Terms are interconnected based on kappa score and genes based on known interactions from STRING.
+
+* Select the term: **Cortisol synthesis and secretion.** 
+* Create ClueGO Nested Network (Right mouse click)
+  * CluePedia nested pathway network with all genes associated to this pathway interconnected based on known interactions from STRING (interconnection score applies to both, initial and nested network).
+
+![](images/CluePedia_STRING.png)
+
+* Here you obtain diffrentially expressed genes and their interactions within enriched pathways. By using your imaginagion, one can group specific pathways and ranked genes that can be associated to a specific type of phenotype. 
+
+* Save your ClueGO, CluePedia and Cytoscape session for future use. 
+
+## ClueGO and CluePedia analysis for miRNA data. 
+Please refere the following documentation for miRNA analysis using ClueGO/CluePedia. 
+
+* http://www.ici.upmc.fr/cluepedia/ClueGO_CluePedia_mirna_analysis.pdf
+* http://www.ici.upmc.fr/cluepedia/CluePedia_Documentation.pdf
+* http://www.ici.upmc.fr/cluepedia/CluePedia_Fig1_Example.pdf
+
+
+
+
+
+
+
+
+
+
+## Bibliography
+
+[1] G Bindea, B Mlecnik, H Hackl, P Charoentong, M Tosolini, A Kirilovsky, WH Fridman, F Pages,
+Z Trajanoski, J Galon. ClueGO: a Cytoscape plug-in to decipher functionally grouped gene ontology and pathway annotation networks. Bioinformatics, 25(8):1091–3, 2009.
+
+[2] GJ Szekely, M Rizzo. Brownian distance covariance. Annals of Applied Statistics, page 1233a1303, ˆ
+2009.
+
+[3] DN Reshef, YA Reshef, HK Finucane, SR Grossman, G McVean, PJ Turnbaugh, ES Lander, M Mitzenmacher, PC Sabeti. Detecting novel associations in large data sets. Science, 334(6062):1518–24, 2011.
+
+[4] von Mering C., Jensen L.J., Snel B., Hooper S.D., Krupp M., Foglierini M., Jouffre N., Huynen
+M.A., Bork P. STRING: known and predicted protein-protein associations, integrated and transferred across organisms. Nucleic Acids Res, 33:D433–D437, 2005.
+
+[5] D Szklarczyk, A Franceschini, M Kuhn, M Simonovic, A Roth, P Minguez, T Doerks, M Stark,
+J Muller, P Bork, LJ Jensen, C von Mering. The STRING database in 2011: functional interaction
+networks of proteins, globally integrated and scored. Nucleic Acids Res, 39(Database issue):D561–
+8, 2011.
+
+[6] A Kozomara, S Griffiths-Jones. miRBase: integrating microRNA annotation and deep-sequencing
+data. Nucleic Acids Res, 39(Database Issue):D152–D157, 2011.
+
+[7] F Xiao, Z Zuo, G Cai, S Kang, X Gao, T Li. miRecords: an integrated resource for microRNAtarget interactions. Nucleic Acids Res, 37:D105–D110, 2009.
+
+[8] M Ashburner, C A Ball, J A Blake, D Botstein, H Butler, J M Cherry, A P Davis, K Dolinski,
+S S Dwight, J T Eppig, M A Harris, D P Hill, L Issel-Tarver, A Kasarskis, S Lewis, J C Matese,
+J E Richardson, M Ringwald, G M Rubin, G Sherlock. Gene ontology: tool for the unification of
+biology The Gene Ontology Consortium. Nat Genet, 25:25–29, 2000.
+
+[9] M Kanehisa, S Goto, S Kawashima, A Nakaya. The KEGG databases at GenomeNet. Nucleic
+Acids Res, 30:42–46, 2002.
+
+[10] A Barsky, JL Gardy, RE Hancock, T Munzner. Cerebral: a Cytoscape plugin for layout of and
+interaction with biolog
