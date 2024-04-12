@@ -10,7 +10,7 @@
 
 ## Schedule (Provisonal)
 
-### Monday 30th January, 2023
+### Thursday 12th June, 2024
 
 
 - 09:30 - 11:00 Introduction to Cytoscape and it's App
