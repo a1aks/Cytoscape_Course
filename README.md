@@ -26,12 +26,14 @@
 ## Materials
 
 This course comprises of three sessions. 
-- [Session 1:A - Introduction to Cytoscape and it's App](session1.Rmd)
-- [Part 1:A - HTML](session1.nb.html)
-- [Session 1:B - Basic network analysis using RNA-Seq data](session1b.Rmd)
+- [Session 1:A - Introduction to Cytoscape and it's App - Part 1](session1a.Rmd)
+- [Part 1:A - HTML](session1a.nb.html)
+- [Session 1:B - Introduction to Cytoscape and it's App - Part 2](session1b.Rmd)
 - [Part 1:B - HTML](session1b.nb.html)
-- [Session 2 - Functional Enrichment Analysis](session2.Rmd)
-- [Part 2 - HTML](session2.nb.html)
+- [Session 2:A - Basic network analysis using RNA-Seq data](session2a.Rmd)
+- [Part 2:A - HTML](session2a.nb.html)
+- [Session 2:B - Functional Enrichment Analysis](session2b.Rmd)
+- [Part 2:B - HTML](session2b.nb.html)
 - [Session 3 - Enrichment using ClueGO and CluePedia.](session3.Rmd)
 - [Part 3 - HTML](session3.nb.html)
 
