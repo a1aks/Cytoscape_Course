@@ -27,7 +27,7 @@ You will need to attend all sessions to complete the workshop
 
 ***Some basic Network Biology knowledge is assumed (and is essential). Without it, you will struggle on this course. If you are not familiar with the key terms. We strongly encourage you to work through an introductory Cytoscape course before attempting these materials. We recommend reviewing Parts 1 and 2 of our Cytoscape introductory course before deciding if you can attend***
 
-- [Cytoscape crash course Part 1](session1a.nb.html)
+- [Cytoscape crash course Part 1](https://a1aks.github.io/Cytoscape_Course/session1a.nb.html)
 - [Cytoscape crash course Part 2](session2a.nb.html) 
 
 ## Registration Link
