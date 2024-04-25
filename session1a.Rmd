@@ -1,0 +1,112 @@
+---
+title: "Introduction to Cytoscape and it's Apps - Session 1a"
+author: "Akshay Bhat"
+date: '`r format(Sys.time(), "Last modified: %d %b %Y")`'
+output: 
+  html_notebook:
+    toc: yes
+    toc_float: yes
+    css: stylesheets/styles.css
+  pdf_document:
+    toc: yes
+---
+<img src="images/logo-sm.png" style="position:absolute;top:40px;right:10px;" width="200" />
+
+# Part A: Network Analysis with Cytoscape
+
+## Goals and Motivations
+By the end of these sessions you should be able to:
+
+* Understand the major applications of network biology
+* Find relevant networks and pathways
+* Import your data into Cytoscape
+* Perform basic topological and other network analyses
+* Master network layouts and data visualization
+* Know where to find relevant Cytoscape apps and tutorials
+* Be able to analyze scRNA-seq data using Cytoscape - Only resource provided. 
+
+
+## Introduction to Network Biology
+## **Why Networks?**
+**Networks are everywhere...** especially in biology!
+
+* Molecular networks
+* Understand the major applications of network biology
+* Find relevant networks and pathways
+* Cell-cell communication
+* Nervous systems
+* Social networks
+
+
+
+## **Transcriptomics**
+* In the early days:
+![](images/RNA_agarose_gel.png)
+* Then came microarrays:
+![](images/microarry.png)
+
+* And now, the network view:
+![](images/Network_View_Array.png)
+
+## **Single Cell Transcriptomics**
+![](images/scRNA-Networks.png)
+
+## **Proteomics**
+![](images/proteomics-Network.png)
+
+
+
+## **Networks are powerful tools...**
+
+* Reduce complexity
+* More efficient than tables
+* Great for data integration
+* Intuitive visualization
+
+
+![](images/TF_mRNA_network.png)
+
+## Advantages of Networks as Tool
+**Analysis**
+
+* Topological properties
+* Hubs and subnetworks
+* Classify, cluster and diffuse
+* Data integration
+
+**Visualization**
+
+* Data overlays
+* Layouts and animation
+* Exploratory analysis
+* Context and interpretation
+
+
+## Applications in Research
+![](images/Application_research.png)
+
+([Click Here for more network examples:](https://www.ncbi.nlm.nih.gov/pmc/?term=(cytoscape+AND+network)+AND+(%222022/01/01%22[PUBDATE]+%3A+%223000/01/01%22[PUBDATE])&report=imagesdocsum&dispmax=100))
+
+
+# Biological Network Taxonomy
+
+## Pathways
+
+* Metabolic
+* Signaling
+* Regulatory
+* Disease
+
+![](images/Pathway_Rout.png)
+
+## Interactions
+
+![](images/Interactions_Taxonomy.png)
+
+## Similarity
+![](images/Similarities.png)
+
+
+We will now go to the next session (1 B) to understand terms about public repositories. 
+<br></br><br></br>
+
