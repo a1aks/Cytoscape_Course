@@ -50,22 +50,6 @@ The workshop is designed to give you an introduction to using Cytoscape, which i
 ## Creating Network Graphs with Cytoscape
 
 **Cytoscape** is a tool for viewing and analysing networks (meaning, in this case, any group of entities that are connected in some way). Cytoscape is not too hard to use, but it won't make much sense unless you have a sense of some basic network analysis vocabulary and concepts. A glossary is made below for basic understanding of introduction to network graphs. 
-* https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md
-
-
-## **Social Network Analysis Glossary**
-
-*Adapted from*
-
-Brian V. Carolan, “Key Terms,” *Social Network Analysis and Education:
-Theory, Methods & Applications* (SAGE, 2014,
-http://www.sagepub.com/carolan/study/materials/KeyTerms.pdf);
-
-Datavu, “Introduction to Network Analysis terminology”
-(<http://datavu.blogspot.com/2013/10/sna-social-network-analysis-basic.html>);
-
-Katharina Zweig, “An Introductory Course on Network Analysis”
-(<https://sites.google.com/site/networkanalysisacourse/schedule/an-introduction-to-centrality-measures>).
 
 ## **Basic Terms**
 
