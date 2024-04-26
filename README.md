@@ -116,7 +116,7 @@ Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if y
 
 3) Download and unzip this file containing the data for the course
 
-- [Link to Data]()
+- [Link to Data](https://github.com/a1aks/Cytoscape_Course/tree/0b870086afbc1b678f10f9e9bcf55ec342494660/Data_Files)
 
 
 4) (Optional) Watch these short introductory videos
