@@ -93,29 +93,22 @@ You will need to bring an internet-enabled laptop to the course and install the 
 
 ### Windows
 
-Install R by downloading and running [this .exe](http://cran.r-project.org/bin/windows/base/release.htm) file from CRAN. Also, please download and run the [RStudio installer for Windows](https://www.rstudio.com/products/rstudio/download/#download). Note that if you have separate user and admin accounts, you should run the installers as administrator (right-click on .exe file and select “Run as administrator” instead of double-clicking). Otherwise problems may occur later, for example when installing R packages.
+* Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
+* More on installation, documentation and how to integrate the package with R or Python is described (here:)
 
 ### Mac
 
-Install R by downloading and running [this .pkg](http://cran.r-project.org/bin/macosx/R-latest.pkg) file from CRAN. Also, please download and run [the RStudio installer for Mac](https://www.rstudio.com/products/rstudio/download/#download)
+Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
 
 ### Linux
 
-You can download the binary files for your distribution from CRAN. Or you can use your package manager (e.g. for Debian/Ubuntu run `sudo apt-get install r-base` and for Fedora run `sudo yum install R`). Also, please download and run the [RStudio installer](https://www.rstudio.com/products/rstudio/download/#download).
+Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
 
 2) Install the Cytoscape packages/Apps required for the course
 
-Enter the following into the console prompt in RStudio
-```
-source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/rnaseq-r-online/main/install_bioc_packages.R")
-```
-
-You can check that this worked by running
-
-```
-source("https://raw.githubusercontent.com/sheffield-bioinformatics-core/rnaseq-r-online/main/check_packages.R")
-
-```
+* Go to  [ClueGO](https://apps.cytoscape.org/apps/cluego)
+  and  [CluePedia](https://apps.cytoscape.org/apps/cluepedia)
+* Click Download or Install (if your cytoscape application is open)
 
 3) Download and unzip this file containing the data for the course
 
