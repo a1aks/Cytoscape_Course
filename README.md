@@ -73,24 +73,23 @@ Researchers in life sciences who want to get an appreciation for the computation
 
 ## Objectives:- After this course you should be able to:
 
-- Have more control over your RNA-Seq datasets
-- Assess the quality of your datasets
-- Know what tools are available in Bioconductor for RNA-seq data analysis and understand the basic object-types that are utilised
-- Produce a list of differentially expressed genes from an RNA-seq experiment 
+- Have more detailed understanding of terms used in network biology.
+- Using your RNA-Seq datasets, better visualise enriched terms using Cytoscape.
+- Know what tools are available in App Store for RNA-seq, miRNA data and pathway analysis.
+- Produce a list of key pathways and differentially expressed genes from an RNA-seq experiment 
 
 ## Aims:- During this course you will learn about:
 
-- RNA sequencing technology and considerations on experiment design
-- Sources of variation in RNA-seq data
-- Differential expression analysis using DEseq2
-- Annotation resources in Bioconductor
-- Identifying over-represented gene sets among a list of differentially expressed genes 
+- Cytoscape and specific plugins used for RNA-Seq data analysis. 
+- Source for integrating diffrential expressed genes within pathway modules. 
+- Hierarchical clustering using String and FunctionalEnrichment apps. 
+- Identifying over-represented gene or pathway sets among a list of differentially expressed genes. 
     
 ## Software installation
 
-You will need to bring an internet-enabled laptop to the course and install the latest versions of both R ***and*** RStudio before coming to the course
+You will need to bring an internet-enabled laptop to the course and install the latest versions of Cytoscape before coming to the course
 
-1) Install R and RStudio 
+1) Install Cytoscape 
 
 ### Windows
 
@@ -104,7 +103,7 @@ Install R by downloading and running [this .pkg](http://cran.r-project.org/bin/m
 
 You can download the binary files for your distribution from CRAN. Or you can use your package manager (e.g. for Debian/Ubuntu run `sudo apt-get install r-base` and for Fedora run `sudo yum install R`). Also, please download and run the [RStudio installer](https://www.rstudio.com/products/rstudio/download/#download).
 
-2) Install the R packages required for the course
+2) Install the Cytoscape packages/Apps required for the course
 
 Enter the following into the console prompt in RStudio
 ```
