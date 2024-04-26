@@ -112,7 +112,7 @@ Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if y
 
 * Go to  [ClueGO](https://apps.cytoscape.org/apps/cluego)
   and  [CluePedia](https://apps.cytoscape.org/apps/cluepedia)
-* Click Download or Install (if your cytoscape application is open)
+* Click Download or Install (if your cytoscape application is already open)
 
 3) Download and unzip this file containing the data for the course
 
