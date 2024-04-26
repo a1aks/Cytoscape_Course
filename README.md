@@ -117,8 +117,8 @@ Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if y
 
 4) (Optional) Watch these short introductory videos
 
-- [A gentle introduction to RNA-seq](https://youtu.be/tlf6wYJrwKY)
-- [Visualisation of Biological Networks using Cytoscape]([https://youtu.be/TTUrtCY2k-w](https://www.youtube.com/watch?v=sqM7ZLhTJoM&list=PLFQS98nmv__zaNXLUQACQu1dHWjtpToKN&index=2))
+- [A gentle introduction to Cytoscape](https://www.youtube.com/watch?v=YH-XXHhrv58)
+- [Visualisation of Biological Networks using Cytoscape](https://www.youtube.com/watch?v=sqM7ZLhTJoM&list=PLFQS98nmv__zaNXLUQACQu1dHWjtpToKN&index=3)
 
 ## Instructors
 
