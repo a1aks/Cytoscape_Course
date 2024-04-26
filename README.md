@@ -1,21 +1,4 @@
----
-layout: page
-organizer: Sheffield Bioinformatics Core
-title: Introduction to RNA-seq analysis in R
-excerpt: "RNA-seq in R"
-startDate: 2023-11-06
-endDate: 2023-11-10
-startTime: 13.00
-endTime: 16.00
-city: Sheffield, or online
-postcode: S10 2HQ
-country: United Kingdom
-venue: Pam Liversidge Building, Design Studio 1 - D06, or ONLINE
-description: "In this workshop, you will be learning how to analyse RNA-seq count data, using R. This will include reading the data into R, quality control and performing differential expression analysis and gene set testing, with a focus on the DESeq2 analysis workflow. You will learn how to generate common plots for analysis and visualisation of gene expression data, such as boxplots and heatmaps. This workshop is aimed at biologists interested in learning how to perform differential expression analysis of RNA-seq data when reference genomes are available.."
-keywords: bioinformatics, NGS, RNA-seq, R
-difficulty: beginner
-contact: bioinformatics-core@sheffield.ac.uk
----
+
 
 
 # Analysis of next-generation sequencing data using **Cytoscape**
@@ -133,7 +116,7 @@ Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if y
 
 3) Download and unzip this file containing the data for the course
 
-- [Link to Data](https://drive.google.com/file/d/178yZSaG1tTr3akeN0DQ2f1Pu2rMoJkBT/view?usp=sharing)
+- [Link to Data]()
 
 
 4) (Optional) Watch these short introductory videos
