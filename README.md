@@ -118,33 +118,32 @@ Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if y
 4) (Optional) Watch these short introductory videos
 
 - [A gentle introduction to RNA-seq](https://youtu.be/tlf6wYJrwKY)
-- [RNA-seq count normalisation explained](https://youtu.be/TTUrtCY2k-w)
+- [Visualisation of Biological Networks using Cytoscape]([https://youtu.be/TTUrtCY2k-w](https://www.youtube.com/watch?v=sqM7ZLhTJoM&list=PLFQS98nmv__zaNXLUQACQu1dHWjtpToKN&index=2))
 
 ## Instructors
 
+- Dr. Akshay Bhat, Cancer Bioinformatician
 - Dr. Mark Dunning, Bioinformatics Core Director
 - Dr. Emily Chambers, Bioinformatics Core Scientist
-- Dr. Akshay Bhat, Cancer Bioinformatician
-- Lara Oberski, PhD Student
 
 
 ## Timetable (provisional)
 
-- Session 1 Monday 6th November 13:00  13:00 - 16:00
-  + Importing RNA-seq counts into R
-  + Quality assessment of raw counts
-  + Checking sources of variation using PCA and clustering
+- Session 1 Thursday 12th June 9:00  9:00 - 13:00
+  + Importing example cancer RNA-seq counts into Cytoscape
+  + Querying pathway and interaction sources using Cytoscape - App. 
+  + Styling the network and saving for publication. 
   
-- Session 2 Wednesday 8th November 13:00 - 16:00
-  + Differential expression using DESeq2 to generate gene-lists
-  + Manipulating and filtering gene-lists
-  + Basic plotting of differential-expression results
-  + More-advanced designs using DESeq2
+- Session 2 Thursday 12th June 13:15 - 15:00
+  + Using diffrential expressed gene-lists, perform protein-protein interactions or gene-regulatory networks. 
+  + Manipulating and filtering gene-lists, pathways and clustered modules. 
+  + Creating sub-networks of specific derived clustered modules. 
+  + Enriching gene-list into pathways using FunctionalEnrichment - App. 
   
-- Session 3 Friday 10th November 13:00 - 16:00
-  + Advanced plotting with heatmaps
-  + Using Bioconductor resources to interrogate Gene Ontologies
-  + Identifying over-represented and enriched gene sets
+- Session 3 Thursday 12th June 15:15 - 16:30
+  + Pathway clustering using ClueGO - Functional Enrichment
+  + Using ClueGO's features for integrating and querying multiple pathway database sources. 
+  + Use CluePedia (sister-software for ClueGO) to map gene regulatory information within specific pathways.
   
 ## Feedback
 
