@@ -127,8 +127,8 @@ Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if y
 ## Instructors
 
 - Dr. Akshay Bhat, Cancer Bioinformatician
-- Dr. Mark Dunning, Bioinformatics Core Director
 - Dr. Emily Chambers, Bioinformatics Core Scientist
+- Dr. Mark Dunning, Bioinformatics Core Director
 
 
 ## Timetable (provisional)
