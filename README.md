@@ -17,21 +17,20 @@
 
 ### Thursday 12th June, 2024
 
-- 09:30 - 11:00 Introduction to Cytoscape and it's App
+- 09:30 - 11:00 Introduction to Cytoscape and it's Apps
 - 11:15 - 12:30 Functional Enrichment Analysis
 - 12:30 - 13:15 LUNCH
 - 13:15 - 15:00 Enrichment using ClueGO and CluePedia
-- 15:00 - 16:30 Identifying signiifcant pathway modules and differential expression genes
+- 15:00 - 16:30 Walk-Through-Example using Cancer RNA-Seq dataset.
 
 
 
-You will need to attend all sessions to complete the workshop
+This is a one day workshop
 
-
-***Some basic Network Biology knowledge is assumed (and is essential). Without it, you will struggle on this course. If you are not familiar with the key terms. We strongly encourage you to work through an introductory Cytoscape course before attempting these materials. We recommend reviewing Parts 1 and 2 of our Cytoscape introductory course before deciding if you can attend***
+***No prior knowledge on network biology and programming is assumed. We will walk you thorugh familiarizing with the key terms used in network/systems biology within this course. 
+However, if you wish to read an introductory material on specific terms used in network biology analysis then we recommend reviewing our Cytoscape introductory course before attending ***
 
 - [Cytoscape crash course Part 1](https://a1aks.github.io/Cytoscape_Course/Intro_NetworkBio.nb.html)
-- [Cytoscape crash course Part 2](https://a1aks.github.io/Cytoscape_Course/session1a.nb.html) 
 
 ## Registration Link
 
