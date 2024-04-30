@@ -27,7 +27,7 @@
 
 This is a one day workshop
 
-***No prior knowledge on network biology and programming is assumed. We will walk you thorugh familiarizing with the key terms used in network/systems biology within this course. ***
+***No prior knowledge on network biology or programming is assumed. We will walk you thorugh familiarizing with the key terms used in network/systems biology within this course. ***
 
 *** If you wish to read an introductory material on specific terms used in network biology analysis then we recommend reviewing our Cytoscape introductory course ***
 
