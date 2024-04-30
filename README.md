@@ -94,19 +94,11 @@ You will need to bring an internet-enabled laptop to the course and install the 
 
 1) Install Cytoscape 
 
-### Windows
+### Windows or ### Mac or ### Linux
 
-* Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
+* Go to [Cytoscape](https://cytoscape.org/download.html) and click Download 
 * More on installation, documentation and how to integrate the package with R or Python is described [here:](http://www.ici.upmc.fr/cluego/cluegoDocumentation.shtml)
 
-
-### Mac
-
-Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
-
-### Linux
-
-Go to https://apps.cytoscape.org/apps/cluego and click Download or Install (if your cytoscape application is open)
 
 2) Install the Cytoscape packages/Apps required for the course
 
