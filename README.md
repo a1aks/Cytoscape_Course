@@ -105,7 +105,7 @@ You will need to bring an internet-enabled laptop to the course and install the 
 * Click Download or Install (if your cytoscape application is already open)
 * More on installation, documentation and how to integrate the package with R or Python is described [here:](http://www.ici.upmc.fr/cluego/cluegoDocumentation.shtml)
 
-3) Download and unzip this file containing the data for the course
+3) Download and save these files in a project-folder for the course
 
 - [Link to Data](https://github.com/a1aks/Cytoscape_Course/tree/0b870086afbc1b678f10f9e9bcf55ec342494660/Data_Files)
 
