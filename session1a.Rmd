@@ -107,6 +107,5 @@ By the end of these sessions you should be able to:
 ![](images/Similarities.png)
 
 
-We will now go to the next session (1 B) to understand terms about public repositories. 
+We will now go to the next [session (1 B)](session1b.nb.html) to understand terms about public repositories. 
 <br></br><br></br>
-

@@ -13,10 +13,6 @@ output:
 
 # Part A:
 
-## Author: **Dr. Akshay Bhat**
-## Last modified: 25th April 2024
-
-
 
 # RNA-Seq Data Network Analysis
 Cytoscape is an open source software platform for integrating, visualizing, and analysing measurement data in the context of networks.<br></br>
@@ -30,33 +26,33 @@ Cytoscape is an open source software platform for integrating, visualizing, and 
   •	Exporting network visualizations. <br></br>
   
   
-  # Setup
+## Setup
   
   Install the ([stringApp](http://apps.cytoscape.org/apps/stringapp)) from the Cytoscape App Store, or via **Apps → App Store → Show App Store.** <br></br>
   
-  ## OR <br></br>
+## OR <br></br>
   
-  Just visit the **Cytoscape App store** and install/download it from there.
+Just visit the **Cytoscape App store** and install/download it from there.
 <br></br><br></br>
   ![](images/StringApp.png)
 <br></br><br></br>
   
-  # Experimental Data
+## Experimental Data
   For this exercise, we will use a dataset comparing transcriptomic differences between bladder cancer and normal tissue. The study has been published by Radvanyi F et al., and we will get a summarized dataset with fold change and p-value from the **EBI Gene Expression Atlas**. Array-express ID is **E-MTAB-1940**.
 <br></br>
   <br></br>
   
-  •	Download the data: Transcriptomic analysis of bladder cancer reveals convergent molecular pathology. ([Here..!](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/BCLA-all.tsv)).  First Select all the contents (by holding control + A or Command + A (Mac-users)) and Save the file by right-clicking the mouse button and using save-as option.  <br></br>
-  •	To open the tsv data file in Excel, first launch Excel and open a blank workbook. Next, go to **Data → Get External Data → Import Text File....** <br></br>
-  •	In the import wizard, select **Delimited** and in the next step select Tab.
+* Download the data: Transcriptomic analysis of bladder cancer reveals convergent molecular pathology. ([Here..!](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/BCLA-all.tsv)).  First Select all the contents (by holding control + A or Command + A (Mac-users)) and Save the file by right-clicking the mouse button and using save-as option.  <br></br>
+* To open the tsv data file in Excel, first launch Excel and open a blank workbook. Next, go to **Data → Get External Data → Import Text File....** <br></br>
+* In the import wizard, select **Delimited** and in the next step select Tab.
 <br></br>
-  •	In the third step, you can select the **Data Format** for every column. The file has 4 columns of data: **Gene ID, Gene Name, fold change and p-value**. **Make sure to change the format for the second column, Gene Name, to Text.** You will have to scroll to the right to see the second column.
+* In the third step, you can select the **Data Format** for every column. The file has 4 columns of data: **Gene ID, Gene Name, fold change and p-value**. **Make sure to change the format for the second column, Gene Name, to Text.** You will have to scroll to the right to see the second column.
 <br></br>
-  •	Click **Finish** to complete the import.
+* Click **Finish** to complete the import.
 
-<br></br><br></br>
+<br></br>
   
-  ## Experimental Data
+## Editing experimental data
   We are going to define a set of up-regulated genes from the full dataset by filtering for fold change and p-value.
 <br></br><br></br>
   •	Select the row containing data value headers (row 4) and select **Data → Filter.**<br></br>
@@ -68,7 +64,7 @@ Cytoscape is an open source software platform for integrating, visualizing, and 
 
 <br></br><br></br>
   
-  # Retrieve Networks from STRING
+## Retrieve Networks from STRING
   
   To identify a relevant network, we will use the **STRING** database to find a network relevant to the list of up-regulated genes.
 <br></br><br></br>
@@ -81,7 +77,7 @@ Cytoscape is an open source software platform for integrating, visualizing, and 
   ![](images/String-Import.png)
 <br></br><br></br>
   
-  # STRING Network Up-Regulated Genes
+## STRING Network Up-Regulated Genes
   
   The resulting network contains up-regulated genes recognized by STRING, and interactions between them with a confidence score of 0.4 or greater.
 <br></br><br></br>
@@ -98,9 +94,9 @@ Cytoscape is an open source software platform for integrating, visualizing, and 
   <br></br><br></br>
   ![](images/String-Image2.png)
 
-<br></br><br></br>
-  
-  # Data Integration
+<br></br>
+
+## Data Integration
   
   Next we will import the RNA-Seq data and use them to create a visualization.<br></br>
   
@@ -115,7 +111,7 @@ Cytoscape is an open source software platform for integrating, visualizing, and 
 <br></br><br></br>
   
   
-  # Visualization
+## Visualization
   Next, we will create a visualization of the imported data on the network. For more detailed information on data visualization, see the Visualizing Data tutorial.<br></br>
   
   •	In the **Style** tab of the **Control Panel**, switch the style from **STRING** style to **default** in the drop-down at the top.<br></br>
