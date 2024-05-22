@@ -49,7 +49,7 @@ In Session 2a, we read in bulk-rna seq data that was obtained from our previousl
 
 ## Create the network
 
-* Download [BCLA-all.tsv.]("https://github.com/a1aks/Cytoscape_Course/blob/main/Data_Files/BCLA-all.tsv")
+* Download [BCLA-all.tsv.](https://github.com/a1aks/Cytoscape_Course/blob/main/Data_Files/BCLA-all.tsv)
 * Import the file to create a network using **File → Import → Network from File..** 
 * Alternatively, drag and drop the data file directly onto the **Node Table**.
 * This will bring up the **Import Network From Table** dialog.
@@ -111,41 +111,26 @@ Looking at the result, is seems like there are definite bands of expression data
 <div class="information">
 # Excercise 
 
-* Find significant expression changes in **Cluster 1** <br></br>
+### a. Find significant expression changes in **Cluster 1** <br></br>
 **Hint:** We are going to repeat step 4 with "Cluster 1 Mean log2FC" as the column. This represents the mean expression across the samples in cluster 1 (the leftmost cluster in the previous figure).
 
-Open the **Filter** tab and setup two **Column Filters** for the **"Cluster 1 Mean log2FC"** column, one for up and one for down. Select the **"Cluster 1 Mean log2FC"** column and set the values to be between **-5 and-1**, then add a second filter (be sure to specify **OR **at the top) and set the values between **1 and 5**.
-This should result in a selection of 192 nodes.
-
-![](images/Filter_Exercise.png)
-<br></br>
 * Download the PPI from STRING
 From the above selection filter, we’ve identified 192 nodes that show an average **Log2FC greater than 5 or less than 1**, and selected those nodes. Now, we create a separate network that includes all of those 192 nodes by selecting the **"Create Network from selected nodes and edges option"** and then load the protein-protein interaction data from **STRING.** Note that only the selected nodes are shown in the **Table Panel**.
 
 
-## **Select gene names from Table Panel.** 
+### b. **Select gene names from Table Panel.** 
 * Select everything in the **name** column by clicking into the first cell and then dragging down until you get to the bottom. Then, do a copy **(Control-C or Apple-C).**
 
-![](images/Copy_PPI_Names.png) 
+* **Paste gene names into STRING network search**. 
 <br></br>
 
-* **Paste gene names into STRING network search**. In the **Network** tab of the **Control Panel** at the top should be a text field with an icon at the left. Click on that icon and select **STRING protein query**. (If you don’t see any **STRING** options, the **stringApp** hasn’t been loaded and needs to be loaded from either the App store or Cytoscape options menu.) Then click into the text field and paste the list of genes.
-
-![](images/Paste_String.png)
+* **Set STRING search parameters.** Search only high quality results (80% confidence) and add 30 extra proteins to the network.
 <br></br>
 
-* **Set STRING search parameters.** Next to the text field is a menu with a list of options. Change the **Confidence (score) cutoff** to 0.8 and the **Maximum additional interactors** to 30. This will get only high quality results (80% confidence) and add 30 extra proteins to the network.
-![](images/String_Parameters.png)
-<br></br>
+## c. **Create the network.** 
+Click on the search icon (magnifying glass) to load the network. How does the network look like. 
 
-## **Create the network.** 
-Click on the search icon (magnifying glass) to load the network. The network should appear similar to the figure below.
-
-![](images/STRING_network.png) 
-<br></br><br></br>
 * Style the network to show differential expression.
-In this step, we’ll change the style of the network to highlight the differentially expressed genes.
-
 </div> <br></br>
 
 ## **Re-import expression data**.

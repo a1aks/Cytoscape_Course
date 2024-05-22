@@ -375,8 +375,6 @@ and minimum 4% from all the Genes associated with the term
 * select ShowDifference
 * Start
 
-![](images/ClueGO-Figure.png)
-
 
 ## Customize the network using Cytoscape features
 
@@ -388,12 +386,9 @@ and minimum 4% from all the Genes associated with the term
 * set scale to 1/3
 * zoom the image
 * change the position of the leading terms to make visible the name of the group
-* change the possition of notgrouped terms if due to rescaling they are too close to a group
+* change the position of notgrouped terms if due to re-scaling they are too close to a group
 * for visualizing groups press Show Groups
 
-![](images/ClueGO-CustomizedFigure.png)
-
-![](images/ClueGO-CustomizedSetting.png)
 
 * Using the filters and style options above, develop a network by using cluster compare for the two bladder cancer conditions - Normal VS Tumor. 
 
@@ -440,7 +435,7 @@ For detailed information on how certain functions work in CluePedia, please refe
 * Download CluePedia and ClueGO plugins in the Cytoscape plugin folder. Optional Download Cerebral plugin.
 * Start Cytoscape. Open ClueGO+CluePedia (Plugins menu).
 * Keep standard settings: Analysis Mode (Function), Cluster Analysis Type (Single), Organism (Homo Sapiens), Automatic recognition of ids.
-* Open example file CluePediaExampleFile Th1 related genes.txt.
+* Copy the Th1 related genes from the list provided.
 Genes: PDCD1LG1, IRF1, GNLY, PDCD1LG2, PDCD1, TBX21, IFNG, TNFRSF6B,
 ICOS, TNF, CXCL9, CXCL10, IL8, STAT1, MADCAM1, ICAM1, VCAM1, CX3CL1
 * Select Ontology: Reactome (version 10.07.2012)
@@ -479,7 +474,9 @@ See all genes associated to this term and their known interactions.
 
 * Save your ClueGO, CluePedia and Cytoscape session for future use. 
 
-## ClueGO and CluePedia analysis for miRNA data. 
+
+## Further Reading: 
+### ClueGO and CluePedia analysis for miRNA data. 
 Please refere the following documentation for miRNA analysis using ClueGO/CluePedia. 
 
 * http://www.ici.upmc.fr/cluepedia/ClueGO_CluePedia_mirna_analysis.pdf

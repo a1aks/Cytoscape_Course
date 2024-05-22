@@ -170,10 +170,11 @@ Use the **Network Search Tool** to select a resource:
 **apps.cytoscape.org**
 
 ![](images/Cytoscape_APP_store3.png)
+<br></br><br></br>
 
+# Important Information
 
-<div class="exercise">
-# Loading Network Data
+## Loading Network Data
 
 ## Cytoscape can import network data from:
 
@@ -212,24 +213,28 @@ Use the **Network Search Tool** to select a resource:
   * CyREST via R, Python, etc
 
 
-# Saving and Exporting
+## Saving and Exporting
 
 * Sessions save everything as **.cys** files: Networks, Tables, Styles, Screen sizes, etc.
 * Export networks in different formats: SIF, GML, XGMML, BioPAX, JSON
 * Export tables as CSV files
 * Publication quality graphics in several formats: PDF, SVG, PNG, and JPEG
+<br></br>
 
+<div class="exercise">
 
+## Tour of Cytoscape - Exercise 
 
-# Tour of Cytoscape - Exercise 
 
 * Launch the latest version of **Cytoscape**
+
 ![](images/Cytoscape_tour.png)
 
 <br></br>
+
 * Save your cytoscape app as a session in **.cys ** format for future use. 
 
 </div>
 
-<br></br><br></br>
+
 

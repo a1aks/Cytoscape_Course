@@ -23,10 +23,10 @@ By the end of these sessions you should be able to:
 * Perform basic topological and other network analyses
 * Master network layouts and data visualization
 * Know where to find relevant Cytoscape apps and tutorials
-* Be able to analyze scRNA-seq data using Cytoscape - Only resource provided. 
+* Be able to analyze RNA-seq data using Cytoscape. 
 
 
-## Introduction to Network Biology
+# Introduction to Network Biology
 ## **Why Networks?**
 **Networks are everywhere...** especially in biology!
 
@@ -105,7 +105,7 @@ By the end of these sessions you should be able to:
 
 ## Similarity
 ![](images/Similarities.png)
+<br></br>
 
+### We will now go to the next [session (1 B)](session1b.nb.html) to understand terms about public repositories. 
 
-We will now go to the next [session (1 B)](session1b.nb.html) to understand terms about public repositories. 
-<br></br><br></br>
