@@ -500,3 +500,11 @@ data. Nucleic Acids Res, 39(Database Issue):D152–D157, 2011.
 
 [10] A Barsky, JL Gardy, RE Hancock, T Munzner. Cerebral: a Cytoscape plugin for layout of and
 interaction with biolog
+
+
+
+<br>
+</br><br>
+</br>
+
+### You can obtain all the answers to the exercise questions from this link [Answers](Answers.nb.html).

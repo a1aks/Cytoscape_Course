@@ -163,3 +163,7 @@ The STRING app has built-in enrichment analysis functionality, which includes en
 ### c. **Save in any of the formats and be ready for publishing.**
   
   </div>
+  
+  
+### We will now go to the next session [session (2B)](session2b.nb.html) to understand how to perform Functional Enrichment.    
+  

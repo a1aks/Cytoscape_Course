@@ -304,3 +304,9 @@ The results of the clustering should look something like the figure below, which
 <div class="information">
 * In the next session **Session 3**, we will learn more on how to perform pathway enrichment by comparing gene sets/groups (**a.k.a GSEA**) using the flavors from **ClueGO** and **CluePedia** (both Cytoscape plugins) and how to create visualizations using results for peer-review publications and grant applications. 
 </div>
+
+<br>
+</br><br>
+</br>
+
+### We will now go to the next [Session (3)](session3.nb.html) to work with integrating pathway resources using ClueGO and CluePedia.   

@@ -237,4 +237,8 @@ Use the **Network Search Tool** to select a resource:
 </div>
 
 
+<br></br>
+
+### We will now go to the next session [session (2A)](session2a.nb.html) to understand how to use Cytoscape and it's apps.  
+
 
