@@ -26,7 +26,7 @@ knitr::opts_chunk$set(
 
 # Introduction
 
-In this session we will learn how to perform pathway enrichment analysis using gene sets from our transcriptomics experiment using two **Cytoscape plugins - ClueGO and CluePedia**. ClueGO and CluePedia are some of the most highly rated or top downloaded apps in the ([Cytoscape App Store]("https://apps.cytoscape.org/")). 
+In this session we will learn how to perform pathway enrichment analysis using gene sets from our transcriptomics experiment by using two **Cytoscape plugins - ClueGO and CluePedia**. ClueGO and CluePedia are some of the most highly rated or top downloaded apps in the ([Cytoscape App Store]("https://apps.cytoscape.org/")). 
 
 ![](images/Cytoscape_App_Store.png)
 
@@ -72,10 +72,14 @@ Between the terms there is a hierarchical relationship (parent-child). Due to th
 
 For a complete view on the studied process, several ontology sources should be consulted in order to integrate their complementary information. In each source, for each gene, there is a large amount of information. This makes the analysis of the relationship between genes and between terms very difficult to represent and comprehend. Also, for close related terms, a high degree of redundancy of their associated genes exists.
 
-**ClueGO**, an open-source Java tool that extracts the non-redundant biological information for large clusters of genes, using GO, KEGG, Reactome, WikiPathways and BioCarta. **ClueGO** is integrated in **Cytoscape** (https://cytoscape.org/) as a plug-in and it is taking advantage of its complex visualization environment.
+## **ClueGO**
+An open-source Java tool that extracts the non-redundant biological information for large clusters of genes, using GO, KEGG, Reactome, WikiPathways and BioCarta. 
+
+* **ClueGO** is integrated in **Cytoscape** (https://cytoscape.org/) as a plug-in and it is taking advantage of its complex visualization environment.
 <br></br>
-<br></br>
-**ClueGO** features include:
+
+
+### **ClueGO** features include:
 
 * ClueGO allows analysis of a single gene set (cluster) or cluster comparison.
 * Different filter criteria can be applied to the terms.
@@ -84,7 +88,7 @@ For a complete view on the studied process, several ontology sources should be c
 * Visualize the selected terms in a functionally grouped network.
 * Charts presenting the specific terms and groups for the clusters compared.
 * Statistical significance for the terms and for the groups.
-* ClueGO can be used in combination with GOlorize.
+* ClueGO can be used in combination with GOlorize (another **Cytoscape** tool for pathway enrichment) [here](https://apps.cytoscape.org/apps/golorize).
 * Easy updatable.
 * Easy extendable.
 
@@ -97,15 +101,15 @@ After starting Cytoscape, **ClueGO** can be found under the Plugins menu. Once s
 
 ![](images/ClueGO_SelectionPanel.png)
 
-2. Select organism. For the moment, ClueGO supports Arabidopsis thaliana, Bos taurus, Caenorhabditis elegans, Danio rerio, Dictyostelium discoideum, Drosophila melanogaster, Escherichia coli,
-Galus galus, Homo sapiens, Magnaporthe grisea, Mus musculus, Oryza sativa, Rattus norvegicus,
-Saccharomyces cerevisiae.
+2. Select organism. **For the moment, ClueGO supports Arabidopsis thaliana, Bos taurus, Caenorhabditis elegans, Danio rerio, Dictyostelium discoideum, Drosophila melanogaster, Escherichia coli, Galus galus, Homo sapiens, Magnaporthe grisea, Mus musculus, Oryza sativa, Rattus norvegicus and Saccharomyces cerevisiae.** 
 3. Select identifiers type (AffymetrixID, AccessionID, SymbolID).
 4. The identifiers can be uploaded from text files or interactively from a Cytoscape sub-network.
 ClueGO provides sample files containing specific genes (AccessionID) for Human B and NK cells.
 A Saccaromyces network sample (galFiltered.cys) can be found in the Cytoscape sampleData
-folder. In today's course we will use bladder cancer data from the **Data-File located in our tutorial folder**. 
-5. Choose the file with identifiers.
+folder. In today's course we will use bladder cancer data from the **Data-File located in our tutorial folder**. [Here..](https://github.com/a1aks/Cytoscape_Course/tree/main/Data_Files)
+5. Choose the any file with identifier 
+* "Top_Down_genes_BLCA_Session3.txt"
+* "Top_Up_genes_BLCA_Session3.txt"
 6. Select the ontology/ontologies. To make ClueGO faster, we use precompiled files based on GO,
 KEGG and BioCarta. The precompiled files are included in the ClueGOPlugin.jar.
 7. Select the evidence code, option available for the GO based files. For more details, see
@@ -312,32 +316,7 @@ distribution on the selected terms (see Figure below).
 ## ClueGO result visualizations
 
 ![](images/ClueGO-Result_Vis.png)
-
-
-
-
-## Include your organism of interest in ClueGO
-
-ClueGO allows to add new organisms, not included in our initial selection.
-For each new organism, a keyIdentifier file: organism.gene2accession.txt (e.g. Oryza Sativa.gene2accession)
-has to be created. In this file, the first column (”UniqueID#EntrezGeneID”) will contain the keyID (e.g.
-EntrezGeneID) that is used for mapping. Next column, ”SymbolID” contains the official gene symbol
-or official symbol and synonyms separated by ”|”. Other types of identifiers can be included in the next
-columns.
-
-The second file needed is organism.properties (e.g. Oryza Sativa.properties). This file contains the organism name, the keggID, the url of the GO association file, the taxonomy id. The same url can be used for other organisms after changing the name of the annotation file. In most of the cases, there are no
-special files required for the update (false).
-Here is the content of the .properties file for Oryza sativa:
-organism.name = Oryza sativa
-organism.kegg.name = osa
-organism.go.url = ftp://anonymous:anonymous@ftp.geneontology.org/pub/go/gene-associations/gene
-association.gramene oryza.gz
-organism.taxid = 39946
-organism.update.needs.special.file = false
-Those files have to be added in a new folder (e.g. Organism Oryza sativa) created in UserHomeFolder,
-.cluegoplugin, currentVersion, ClueGOFiles, ClueGOSourceFiles.
-Remark: At the addition of a new organism, make sure that the ids provided by KEGG are the same as
-the UniqueIDs from organism.gene2accession.txt.
+<br></br><br></br>
 
 
 <div class="exercise">
@@ -406,9 +385,9 @@ More details on using specific options can be achieved by folowing the **ClueGO*
 ## Background: 
 **CluePedia** provides insights into pathways by integrating experimental and in silico information.
 
-* CluePedia extends ClueGO ([1]) functionality down to genes and miRNAs. If ClueGO reveals interrelations of terms and functional groups in biological networks, CluePedia gives the posibility to enrich those networks with known and experimental data.
+* CluePedia extends ClueGO ([3]) functionality down to genes and miRNAs. If ClueGO reveals interrelations of terms and functional groups in biological networks, CluePedia gives the posibility to enrich those networks with known and experimental data.
 
-* CluePedia calculates statistical dependencies (correlation) for markers of interest from experimental data. Four tests investigating linear and nonlinear dependencies between variables are implemented: Pearson correlation, Spearman’s rank, Distance correlation ([2]) and Minimal Information Criteria (MIC) ([3]). The resulting file is added to CluePedia as an additional
+* CluePedia calculates statistical dependencies (correlation) for markers of interest from experimental data. Four tests investigating linear and nonlinear dependencies between variables are implemented: Pearson correlation, Spearman’s rank, Distance correlation ([4]) and Minimal Information Criteria (MIC) ([5]). The resulting file is added to CluePedia as an additional
 resource for further analysis.
 
 * Experimental data can be normalized and visualized between adjustable thresholds on network’s nodes as a label. Relevant signals with a certain expression level, standard deviation
@@ -416,7 +395,7 @@ and without missing values can be selected. Another feature allows the extractio
 corresponding to selected markers, e.g. genes associated to a pathway, from a dataset into a new
 file.
 
-* One major advantage is the possibility to investigate in detail a pathway by combining known [4, 5] and new, experimental derived information, about genes/proteins involved. More, miRNAs [6, 7] that could influence the expression of the genes can be as well visualized together with the expression data. The location of the genes/proteins [8, 9] within cellular compartments can be automatically displayed, by the implementation of Cerebral [10] layout within CluePedia.
+* One major advantage is the possibility to investigate in detail a pathway by combining known [3, 4] and new, experimental derived information, about genes/proteins involved. More, miRNAs [7, 8] that could influence the expression of the genes can be as well visualized together with the expression data. The location of the genes/proteins [9, 10] within cellular compartments can be automatically displayed, by the implementation of Cerebral [10] layout within CluePedia.
 
 * CluePedia provides an ID index file (updatable, extendable) that stores entrez gene ids and symbols and allows fast analysis.
 
@@ -494,34 +473,30 @@ Please refere the following documentation for miRNA analysis using ClueGO/CluePe
 
 ## Bibliography
 
-[1] G Bindea, B Mlecnik, H Hackl, P Charoentong, M Tosolini, A Kirilovsky, WH Fridman, F Pages,
+[1] M Ashburner, C A Ball, J A Blake, D Botstein, H Butler, J M Cherry, A P Davis, K Dolinski, S S Dwight, J T Eppig, M A Harris, D P Hill, L Issel-Tarver, A Kasarskis, S Lewis, J C Matese, J E Richardson, M Ringwald, G M Rubin, G Sherlock. Gene ontology: tool for the unification of biology The Gene Ontology Consortium. Nat Genet, 25:25–29, 2000.
+
+[2] M Kanehisa, S Goto, S Kawashima, A Nakaya. The KEGG databases at GenomeNet. Nucleic Acids Res, 30:42–46, 2002.
+
+[3] G Bindea, B Mlecnik, H Hackl, P Charoentong, M Tosolini, A Kirilovsky, WH Fridman, F Pages,
 Z Trajanoski, J Galon. ClueGO: a Cytoscape plug-in to decipher functionally grouped gene ontology and pathway annotation networks. Bioinformatics, 25(8):1091–3, 2009.
 
-[2] GJ Szekely, M Rizzo. Brownian distance covariance. Annals of Applied Statistics, page 1233a1303, ˆ
+[4] GJ Szekely, M Rizzo. Brownian distance covariance. Annals of Applied Statistics, page 1233a1303, ˆ
 2009.
 
-[3] DN Reshef, YA Reshef, HK Finucane, SR Grossman, G McVean, PJ Turnbaugh, ES Lander, M Mitzenmacher, PC Sabeti. Detecting novel associations in large data sets. Science, 334(6062):1518–24, 2011.
+[5] DN Reshef, YA Reshef, HK Finucane, SR Grossman, G McVean, PJ Turnbaugh, ES Lander, M Mitzenmacher, PC Sabeti. Detecting novel associations in large data sets. Science, 334(6062):1518–24, 2011.
 
-[4] von Mering C., Jensen L.J., Snel B., Hooper S.D., Krupp M., Foglierini M., Jouffre N., Huynen
+[6] von Mering C., Jensen L.J., Snel B., Hooper S.D., Krupp M., Foglierini M., Jouffre N., Huynen
 M.A., Bork P. STRING: known and predicted protein-protein associations, integrated and transferred across organisms. Nucleic Acids Res, 33:D433–D437, 2005.
 
-[5] D Szklarczyk, A Franceschini, M Kuhn, M Simonovic, A Roth, P Minguez, T Doerks, M Stark,
+[7] D Szklarczyk, A Franceschini, M Kuhn, M Simonovic, A Roth, P Minguez, T Doerks, M Stark,
 J Muller, P Bork, LJ Jensen, C von Mering. The STRING database in 2011: functional interaction
 networks of proteins, globally integrated and scored. Nucleic Acids Res, 39(Database issue):D561–
 8, 2011.
 
-[6] A Kozomara, S Griffiths-Jones. miRBase: integrating microRNA annotation and deep-sequencing
+[8] A Kozomara, S Griffiths-Jones. miRBase: integrating microRNA annotation and deep-sequencing
 data. Nucleic Acids Res, 39(Database Issue):D152–D157, 2011.
 
-[7] F Xiao, Z Zuo, G Cai, S Kang, X Gao, T Li. miRecords: an integrated resource for microRNAtarget interactions. Nucleic Acids Res, 37:D105–D110, 2009.
-
-[8] M Ashburner, C A Ball, J A Blake, D Botstein, H Butler, J M Cherry, A P Davis, K Dolinski,
-S S Dwight, J T Eppig, M A Harris, D P Hill, L Issel-Tarver, A Kasarskis, S Lewis, J C Matese,
-J E Richardson, M Ringwald, G M Rubin, G Sherlock. Gene ontology: tool for the unification of
-biology The Gene Ontology Consortium. Nat Genet, 25:25–29, 2000.
-
-[9] M Kanehisa, S Goto, S Kawashima, A Nakaya. The KEGG databases at GenomeNet. Nucleic
-Acids Res, 30:42–46, 2002.
+[9] F Xiao, Z Zuo, G Cai, S Kang, X Gao, T Li. miRecords: an integrated resource for microRNAtarget interactions. Nucleic Acids Res, 37:D105–D110, 2009.
 
 [10] A Barsky, JL Gardy, RE Hancock, T Munzner. Cerebral: a Cytoscape plugin for layout of and
 interaction with biolog
