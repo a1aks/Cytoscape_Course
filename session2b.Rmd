@@ -49,7 +49,7 @@ In Session 2a, we read in bulk-rna seq data that was obtained from our previousl
 
 ## Create the network
 
-* Download [BCLA-all.tsv.](https://github.com/a1aks/Cytoscape_Course/blob/main/Data_Files/BCLA-all.tsv)
+* Download [BCLA-all.tsv.](https://raw.githubusercontent.com/markdunning/Cytoscape_Course/patch-1/Data_Files/BCLA-all.tsv)
 * Import the file to create a network using **File → Import → Network from File..** 
 * Alternatively, drag and drop the data file directly onto the **Node Table**.
 * This will bring up the **Import Network From Table** dialog.
