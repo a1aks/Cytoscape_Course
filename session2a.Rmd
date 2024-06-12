@@ -38,11 +38,15 @@ Just visit the **Cytoscape App store** and install/download it from there.
 <br></br><br></br>
   
 ## Experimental Data
-  For this exercise, we will use a dataset comparing transcriptomic differences between bladder cancer and normal tissue. The study has been published by Radvanyi F et al., and we will get a summarized dataset with fold change and p-value from the **EBI Gene Expression Atlas**. Array-express ID is **E-MTAB-1940**.
+  For this exercise, we will use a dataset comparing transcriptomic differences between bladder cancer and normal tissue. The study has been published by Radvanyi F et al., and we will get a summarized dataset with fold change and p-value from the **EBI Gene Expression Atlas**. Array-express ID is **E-MTAB-1940**.  
+  
+* link to the publication and data : ([Here..!](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-1940?query=E-MTAB-1940))
+  
+  
 <br></br>
   <br></br>
   
-* Download the data: Transcriptomic analysis of bladder cancer reveals convergent molecular pathology. ([Here..!](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/E-MTAB-1940-query-results.tsv)).  First Select all the contents (by holding control + A or Command + A (Mac-users)) and Save the file by right-clicking the mouse button and using save-as option.  <br></br>
+* Download the data: Transcriptomic analysis of bladder cancer reveals convergent molecular pathology. ([Here..!](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/BCLA-all.tsv)).  First Select all the contents (by holding control + A or Command + A (Mac-users)) and Save the file by right-clicking the mouse button and using save-as option.  <br></br>
 * To open the tsv data file in Excel, first launch Excel and open a blank workbook. Next, go to **Data → Get External Data → Import Text File....** <br></br>
 * In the import wizard, select **Delimited** and in the next step select Tab.
 <br></br>
@@ -54,7 +58,12 @@ Just visit the **Cytoscape App store** and install/download it from there.
   
 ## Editing experimental data
   We are going to define a set of up-regulated genes from the full dataset by filtering for fold change and p-value.
-<br></br><br></br>
+<br></br>
+For this reason we will need to edit the raw downloaded file to obtain expression information for the features specific to bladder cancer. 
+
+Download the following file ([Here..!](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/E-MTAB-1940-query-results.tsv)) and open in Microsoft Excel. 
+
+<br></br>
   •	Select the row containing data value headers (row 4) and select **Data → Filter.**<br></br>
   •	In the drop-down for the fold change column, set a filter for fold change greater than 2. This should result in **263** genes.<br></br>
   •	Next, one would normally filter out non-significant changes by filtering on the p-value as well, for example setting p-value less than 0.05. But in this case, all genes with a fold change greater than 2 already meet that cutoff.<br></br>
@@ -157,10 +166,11 @@ The STRING app has built-in enrichment analysis functionality, which includes en
 * Next, add a split donut chart to the nodes representing the top terms by clicking on <br></br>
 * Explore custom settings via   in the top right of the STRING enrichment tab.<br></br>   
     
+### b. Repeat the whole experiment using "down-regulated" genes. 
 
-### b. Export your Networks
+### c. Export your Networks
 
-### c. **Save in any of the formats and be ready for publishing.**
+### d. **Save in any of the formats and be ready for publishing.**
   
   </div>
   
