@@ -42,7 +42,7 @@ Just visit the **Cytoscape App store** and install/download it from there.
 <br></br>
   <br></br>
   
-* Download the data: Transcriptomic analysis of bladder cancer reveals convergent molecular pathology. ([Here..!](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/BCLA-all.tsv)).  First Select all the contents (by holding control + A or Command + A (Mac-users)) and Save the file by right-clicking the mouse button and using save-as option.  <br></br>
+* Download the data: Transcriptomic analysis of bladder cancer reveals convergent molecular pathology. ([Here..!](https://raw.githubusercontent.com/a1aks/Cytoscape_Course/main/Data_Files/E-MTAB-1940-query-results.tsv)).  First Select all the contents (by holding control + A or Command + A (Mac-users)) and Save the file by right-clicking the mouse button and using save-as option.  <br></br>
 * To open the tsv data file in Excel, first launch Excel and open a blank workbook. Next, go to **Data → Get External Data → Import Text File....** <br></br>
 * In the import wizard, select **Delimited** and in the next step select Tab.
 <br></br>
